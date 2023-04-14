@@ -1,7 +1,7 @@
 <template>
-  <header class="bg-bg01">
+  <header class="bg-bg02">
     <nav
-      class="mx-auto flex max-w-7xl items-center justify-between p-2 lg:px-8"
+      class="mx-auto flex max-w-7xl items-center justify-between p-4"
       aria-label="Global"
     >
       <div class="flex lg:flex-1">
@@ -51,7 +51,7 @@
     >
       <div class="fixed inset-0 z-10" />
       <DialogPanel
-        class="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-bg01 px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-black/10"
+        class="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-bg02 px-4 py-4 sm:max-w-sm sm:ring-1 sm:ring-black/10"
       >
         <div class="flex items-center justify-between">
           <a href="#" class="-m-1.5 p-1.5">
