@@ -1,6 +1,6 @@
 <template>
   <section class="bg-bg02 dark:bg-gray-900">
-    <div class="mx-auto max-w-screen-xl px-4 py-8 text-center">
+    <div class="mx-auto max-w-screen-xl px-6 pb-24 pt-8 text-center">
       <div class="flex">
         <!-- social links -->
         <div class="hidden items-end lg:flex xl:flex">
@@ -66,9 +66,10 @@
             </a>
             <a
               href="#"
-              class="text-sm font-semibold leading-6 text-black hover:text-yellow"
+              class="flex items-center gap-1 text-sm font-semibold leading-6 text-black hover:text-yellow"
             >
-              Download my CV <span aria-hidden="true">→</span>
+              Download my CV
+              <ArrowDownTrayIcon class="h-4 w-4" aria-hidden="true" />
             </a>
           </div>
           <!-- hero image -->
@@ -80,3 +81,7 @@
     </div>
   </section>
 </template>
+
+<script setup>
+import { ArrowDownTrayIcon } from "@heroicons/vue/24/outline";
+</script>

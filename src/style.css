@@ -21,7 +21,6 @@ content: "";
   width: 0.125rem;
   height: 2rem;
   background-color: #00445c;
-  transform: rotate(270deg);
-  margin-right: 1.5rem;
-  margin-top: 0.08rem;
+  margin-top: 1.5rem;
+  margin-left: 0.1rem;
 }
