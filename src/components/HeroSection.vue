@@ -1,79 +1,81 @@
 <template>
   <section class="bg-bg02 dark:bg-gray-900">
-    <!-- social links -->
-    <div class="hidden items-end lg:col-span-1 lg:flex xl:flex">
-      <ul class="custom-line-icons flex flex-col items-center gap-y-3">
-        <li class="duration-150 ease-in hover:translate-x-2">
-          <a
-            href="https://www.facebook.com/vitkainora/"
-            target="_blank"
-            rel="noreferrer"
+    <div class="mx-auto max-w-screen-xl px-4 py-8 text-center">
+      <div class="flex">
+        <!-- social links -->
+        <div class="hidden items-end lg:flex xl:flex">
+          <ul class="custom-line-icons flex flex-col items-center gap-y-1">
+            <li class="duration-150 ease-in hover:translate-x-2">
+              <a
+                href="mailto:vitkai.nora@outlook.hu"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img class="h-8" alt="" src="../assets/mail-icon.svg" />
+              </a>
+            </li>
+            <li class="duration-150 ease-in hover:translate-x-2">
+              <a
+                href="https://www.facebook.com/vitkainora/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img class="h-8" alt="" src="../assets/facebook-icon.svg" />
+              </a>
+            </li>
+            <li class="duration-150 ease-in hover:translate-x-2">
+              <a
+                href="https://www.facebook.com/vitkainora/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img class="h-8" alt="" src="../assets/linkedin-icon.svg" />
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <!-- hero text -->
+          <div class="relative">
+            <h1
+              class="mb-4 text-7xl font-extrabold leading-none text-yellow/40 dark:text-white md:text-8xl lg:text-9xl"
+            >
+              HELLO
+            </h1>
+            <h2
+              class="absolute inset-x-0 top-2/3 mb-4 text-4xl font-extrabold leading-none tracking-tight text-gray-900 dark:text-white md:text-5xl lg:text-6xl"
+            >
+              nice to meet you!
+            </h2>
+          </div>
+          <p
+            class="mb-8 mt-8 text-base font-normal text-black dark:text-gray-400 sm:px-16 lg:text-xl xl:px-48"
           >
-            <img class="h-5" alt="" src="../assets/mail-icon.svg" />
-          </a>
-        </li>
-        <li class="duration-150 ease-in hover:translate-x-2">
-          <a
-            href="https://www.facebook.com/vitkainora/"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <img class="h-5" alt="" src="../assets/facebook-icon.svg" />
-          </a>
-        </li>
-        <li class="duration-150 ease-in hover:translate-x-2">
-          <a
-            href="https://www.facebook.com/vitkainora/"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <img class="h-5" alt="" src="../assets/linkedin-icon.svg" />
-          </a>
-        </li>
-      </ul>
-    </div>
-    <div
-      class="mx-auto max-w-screen-xl px-4 py-8 text-center lg:px-12 lg:py-16"
-    >
-      <!-- hero text -->
-      <div class="relative">
-        <h1
-          class="mb-4 text-7xl font-extrabold leading-none text-yellow/40 dark:text-white md:text-8xl lg:text-9xl"
-        >
-          HELLO
-        </h1>
-        <h2
-          class="absolute inset-x-0 top-2/3 mb-4 text-4xl font-extrabold leading-none tracking-tight text-gray-900 dark:text-white md:text-5xl lg:text-6xl"
-        >
-          nice to meet you!
-        </h2>
-      </div>
-      <p
-        class="mb-8 mt-8 text-lg font-normal text-black dark:text-gray-400 sm:px-16 lg:text-xl xl:px-48"
-      >
-        My name is Nora Vitkai. I’m a professional and dedicated creative
-        developer with a passion for innovation and quality. With a zeal for
-        originality and commitment to excellence, I create digital experiences
-        that bring visions to life.
-      </p>
-      <!-- CTA buttons -->
-      <div class="mb-8 flex flex-row items-center justify-center gap-x-6">
-        <a
-          href="#"
-          class="rounded-full border border-yellow bg-white px-3.5 py-2.5 text-sm font-semibold text-black shadow-xl hover:text-yellow focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-yellow"
-        >
-          Get to know me
-        </a>
-        <a
-          href="#"
-          class="text-sm font-semibold leading-6 text-black hover:text-yellow"
-        >
-          Download my CV <span aria-hidden="true">→</span>
-        </a>
-      </div>
-      <!-- hero image -->
-      <div class="flex items-center justify-center">
-        <img class="h-80" src="../assets/hero-img.png" alt="" />
+            My name is Nora Vitkai. I’m a professional and dedicated creative
+            developer with a passion for innovation and quality. With a zeal for
+            originality and commitment to excellence, I create digital
+            experiences that bring visions to life.
+          </p>
+          <!-- CTA buttons -->
+          <div class="mb-8 flex flex-row items-center justify-center gap-x-6">
+            <a
+              href="#"
+              class="rounded-full border border-yellow bg-white px-3.5 py-2.5 text-sm font-semibold text-black shadow-xl hover:text-yellow focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-yellow"
+            >
+              Get to know me
+            </a>
+            <a
+              href="#"
+              class="text-sm font-semibold leading-6 text-black hover:text-yellow"
+            >
+              Download my CV <span aria-hidden="true">→</span>
+            </a>
+          </div>
+          <!-- hero image -->
+          <div class="flex items-center justify-center">
+            <img class="h-60 sm:h-80" src="../assets/hero-img.png" alt="" />
+          </div>
+        </div>
       </div>
     </div>
   </section>

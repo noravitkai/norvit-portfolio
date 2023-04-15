@@ -12,6 +12,7 @@ html {
     width: 0.125rem;
     height: 2rem;
     background-color: #00445c;
+    margin-top: 0.25rem;
 }
 
 .custom-line-text::before {
