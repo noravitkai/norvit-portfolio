@@ -3,7 +3,15 @@
     <div class="mx-auto max-w-7xl px-6 py-24">
       <div class="grid items-center gap-14 md:grid-cols-2">
         <div class="order-2 sm:order-1">
-          <img class="rounded-xl" src="src/assets/IMG_0163.JPG" alt="" />
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/t_WDUt50p6U"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+          ></iframe>
         </div>
         <div class="order-1 flex sm:order-2">
           <div class="flex flex-col gap-6">
@@ -35,7 +43,7 @@
       <!-- Second part -->
       <div class="mt-24 hidden md:block">
         <div
-          class="grid items-center gap-4 sm:gap-14 md:grid-cols-1 md:grid-rows-2 lg:grid-cols-2"
+          class="grid items-center gap-4 sm:gap-14 md:grid-cols-1 md:grid-rows-2 lg:grid-cols-2 lg:grid-rows-1"
         >
           <div class="order-2">
             <div class="flex-auto">
@@ -47,13 +55,13 @@
                   }"
                 >
                   <p>
-                    Collaboratively administrate empowered markets via
-                    plug-and-play networks. Dynamically procrastinate B2C users
-                    after installed base benefits.
+                    Lorem ipsum lorem ipsum lorem lorem ipsum lorem ipsum bla
+                    bla bla lorem ipsum lorem lorem ipsum lorem ipsum bla bla
+                    bla bla bla bla lorem ipsum.
                     <br />
                     <br />
-                    Dramatically visualize customer directed convergence without
-                    revolutionary ROI.
+                    Lorem ipsum lorem ipsum lorem lorem ipsum lorem ipsum bla
+                    bla bla lorem ipsum lorem lorem ipsum.
                   </p>
                 </div>
                 <div
