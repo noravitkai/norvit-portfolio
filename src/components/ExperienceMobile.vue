@@ -4,11 +4,11 @@
       <div class="flex gap-14">
         <div class="flex">
           <!-- section marker -->
-          <div class="mt-4 flex flex-col items-center">
-            <p class="-rotate-90 text-sm font-medium uppercase text-blue">
-              About
+          <div class="mt-10 flex flex-col items-center lg:mt-4">
+            <p class="-rotate-90 text-sm font-medium uppercase text-yellow">
+              Experience
             </p>
-            <div class="custom-line-text-about"></div>
+            <div class="custom-line-text-experience"></div>
           </div>
           <div class="flex flex-col gap-6">
             <!-- description text -->
@@ -41,10 +41,10 @@
           </div>
           <!-- section marker -->
           <div class="mt-4 flex flex-col items-center">
-            <p class="-rotate-90 text-sm font-medium uppercase text-blue">
-              About
+            <p class="-rotate-90 text-sm font-medium uppercase text-yellow">
+              Experience
             </p>
-            <div class="custom-line-text-about"></div>
+            <div class="custom-line-text-experience"></div>
           </div>
         </div>
         <div class="mt-6">
@@ -58,10 +58,10 @@
         <div class="mt-6 flex">
           <!-- section marker -->
           <div class="mt-4 flex flex-col items-center">
-            <p class="-rotate-90 text-sm font-medium uppercase text-blue">
-              About
+            <p class="-rotate-90 text-sm font-medium uppercase text-yellow">
+              Experience
             </p>
-            <div class="custom-line-text-about"></div>
+            <div class="custom-line-text-experience"></div>
           </div>
           <div class="flex flex-col gap-6">
             <h4 class="text-4xl font-semibold">Project name</h4>
@@ -93,10 +93,10 @@
           </div>
           <!-- section marker -->
           <div class="mt-4 flex flex-col items-center">
-            <p class="-rotate-90 text-sm font-medium uppercase text-blue">
-              About
+            <p class="-rotate-90 text-sm font-medium uppercase text-yellow">
+              Experience
             </p>
-            <div class="custom-line-text-about"></div>
+            <div class="custom-line-text-experience"></div>
           </div>
         </div>
         <div class="mt-6">
@@ -110,10 +110,10 @@
         <div class="mt-6 flex">
           <!-- section marker -->
           <div class="mt-4 flex flex-col items-center">
-            <p class="-rotate-90 text-sm font-medium uppercase text-blue">
-              About
+            <p class="-rotate-90 text-sm font-medium uppercase text-yellow">
+              Experience
             </p>
-            <div class="custom-line-text-about"></div>
+            <div class="custom-line-text-experience"></div>
           </div>
           <div class="flex flex-col gap-6">
             <h4 class="text-4xl font-semibold">Project name</h4>
@@ -145,10 +145,10 @@
           </div>
           <!-- section marker -->
           <div class="mt-4 flex flex-col items-center">
-            <p class="-rotate-90 text-sm font-medium uppercase text-blue">
-              About
+            <p class="-rotate-90 text-sm font-medium uppercase text-yellow">
+              Experience
             </p>
-            <div class="custom-line-text-about"></div>
+            <div class="custom-line-text-experience"></div>
           </div>
         </div>
         <div class="mt-6">
@@ -161,10 +161,10 @@
         <div class="mt-6 flex">
           <!-- section marker -->
           <div class="mt-4 flex flex-col items-center">
-            <p class="-rotate-90 text-sm font-medium uppercase text-blue">
-              About
+            <p class="-rotate-90 text-sm font-medium uppercase text-yellow">
+              Experience
             </p>
-            <div class="custom-line-text-about"></div>
+            <div class="custom-line-text-experience"></div>
           </div>
           <div class="flex flex-col gap-6">
             <!-- description text -->
@@ -200,10 +200,10 @@
           </div>
           <!-- section marker -->
           <div class="mt-4 flex flex-col items-center">
-            <p class="-rotate-90 text-sm font-medium uppercase text-blue">
-              About
+            <p class="-rotate-90 text-sm font-medium uppercase text-yellow">
+              Experience
             </p>
-            <div class="custom-line-text-about"></div>
+            <div class="custom-line-text-experience"></div>
           </div>
         </div>
         <div class="mt-6">
@@ -213,10 +213,10 @@
         <div class="mt-6 flex">
           <!-- section marker -->
           <div class="mt-4 flex flex-col items-center">
-            <p class="-rotate-90 text-sm font-medium uppercase text-blue">
-              About
+            <p class="-rotate-90 text-sm font-medium uppercase text-yellow">
+              Experience
             </p>
-            <div class="custom-line-text-about"></div>
+            <div class="custom-line-text-experience"></div>
           </div>
           <div class="flex flex-col gap-6">
             <h4 class="text-4xl font-semibold">Project name</h4>
@@ -251,10 +251,10 @@
           </div>
           <!-- section marker -->
           <div class="mt-4 flex flex-col items-center">
-            <p class="-rotate-90 text-sm font-medium uppercase text-blue">
-              About
+            <p class="-rotate-90 text-sm font-medium uppercase text-yellow">
+              Experience
             </p>
-            <div class="custom-line-text-about"></div>
+            <div class="custom-line-text-experience"></div>
           </div>
         </div>
         <div class="mt-6">
