@@ -19,7 +19,7 @@
         <div class="order-1 flex sm:order-2">
           <div class="flex flex-col gap-6">
             <!-- description text -->
-            <h2 class="text-4xl">Lorem ipsum</h2>
+            <h2 class="text-4xl font-semibold">Lorem ipsum</h2>
             <p class="text-base">
               Lorem ipsum lorem ipsum lorem lorem ipsum lorem ipsum bla bla bla
               lorem ipsum lorem lorem ipsum lorem ipsum bla bla bla bla bla bla
@@ -94,7 +94,7 @@
             </div>
             <div class="flex flex-col gap-6">
               <!-- description text -->
-              <h2 class="text-4xl">Lorem ipsum</h2>
+              <h2 class="text-4xl font-semibold">Lorem ipsum</h2>
               <p class="text-base">
                 Lorem ipsum lorem ipsum lorem lorem ipsum lorem ipsum bla bla
                 bla lorem ipsum lorem lorem ipsum lorem ipsum bla bla bla bla
@@ -156,7 +156,7 @@
             </div>
             <div class="flex flex-col gap-6">
               <!-- description text -->
-              <h2 class="text-4xl">Lorem ipsum</h2>
+              <h2 class="text-4xl font-semibold">Lorem ipsum</h2>
               <p class="text-base">
                 Lorem ipsum lorem ipsum lorem lorem ipsum lorem ipsum bla bla
                 bla lorem ipsum lorem lorem ipsum lorem ipsum bla bla bla bla

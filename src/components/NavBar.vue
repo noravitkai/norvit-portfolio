@@ -37,7 +37,7 @@
           >Experience</a
         >
         <a
-          href="#"
+          href="#contact"
           class="text-sm font-semibold leading-6 text-black hover:text-yellow"
           >Contact</a
         >
@@ -71,22 +71,22 @@
           <div class="-my-6 divide-y divide-black/10">
             <div class="space-y-1 py-6">
               <a
-                href="#"
+                href="#home"
                 class="-mx-3 block rounded-lg px-3 py-2 text-sm font-semibold leading-7 text-black hover:text-yellow"
                 >Home</a
               >
               <a
-                href="#"
+                href="#about"
                 class="-mx-3 block rounded-lg px-3 py-2 text-sm font-semibold leading-7 text-black hover:text-yellow"
                 >About</a
               >
               <a
-                href="#"
+                href="#experience"
                 class="-mx-3 block rounded-lg px-3 py-2 text-sm font-semibold leading-7 text-black hover:text-yellow"
                 >Experience</a
               >
               <a
-                href="#"
+                href="#contact"
                 class="-mx-3 block rounded-lg px-3 py-2 text-sm font-semibold leading-7 text-black hover:text-yellow"
                 >Contact</a
               >

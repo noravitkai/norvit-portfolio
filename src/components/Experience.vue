@@ -1,5 +1,6 @@
 <template>
   <section class="overflow-hidden bg-bg02" id="experience">
+    <!-- general description with tabs -->
     <div class="mx-auto max-w-7xl px-6 pb-12 pt-24">
       <div class="flex">
         <!-- section marker -->
@@ -11,7 +12,7 @@
         </div>
         <div class="flex flex-col gap-6">
           <!-- description text -->
-          <h2 class="text-4xl">Lorem ipsum</h2>
+          <h2 class="text-4xl font-semibold">Lorem ipsum</h2>
           <p class="text-base">
             Lorem ipsum lorem ipsum lorem lorem ipsum lorem ipsum bla bla bla
             lorem ipsum lorem lorem ipsum lorem ipsum bla bla bla bla bla bla

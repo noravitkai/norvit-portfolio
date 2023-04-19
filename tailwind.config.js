@@ -6,6 +6,7 @@ export default {
       colors: {
         bg01: "#F5F5F5",
         bg02: "#E8E8E8",
+        gray: "#707070",
         black: "#18181B",
         white: "#FFFFFF",
         blue: "#00445c",

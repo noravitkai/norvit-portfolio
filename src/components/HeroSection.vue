@@ -38,12 +38,12 @@
           <!-- hero text -->
           <div class="relative">
             <h1
-              class="mb-4 text-7xl font-extrabold leading-none text-yellow/40 md:text-8xl lg:text-9xl"
+              class="mb-4 text-7xl font-extrabold uppercase leading-none text-yellow/40 md:text-8xl lg:text-9xl"
             >
-              HELLO
+              Hello
             </h1>
             <h2
-              class="absolute inset-x-0 top-2/3 mb-4 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl"
+              class="text-gray-900 absolute inset-x-0 top-2/3 mb-4 text-4xl font-extrabold leading-none tracking-tight md:text-5xl lg:text-6xl"
             >
               nice to meet you!
             </h2>
