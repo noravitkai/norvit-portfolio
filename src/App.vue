@@ -5,6 +5,7 @@ import About from "./components/About.vue";
 import Experience from "./components/Experience.vue";
 import Contact from "./components/Contact.vue";
 import Footer from "./components/Footer.vue";
+import ExperienceMobile from "./components/ExperienceMobile.vue";
 </script>
 
 <template>
@@ -12,6 +13,8 @@ import Footer from "./components/Footer.vue";
   <HeroSection />
   <About />
   <Experience />
+  <ExperienceMobile />
   <Contact />
+
   <Footer />
 </template>

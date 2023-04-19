@@ -4,13 +4,6 @@
       class="relative mx-auto grid max-w-7xl grid-cols-1 px-6 py-24 lg:grid-cols-2"
     >
       <div class="relative lg:static lg:flex lg:items-center">
-        <!-- section marker -->
-        <div class="-mt-48 flex flex-col items-center">
-          <p class="-rotate-90 text-sm font-medium uppercase text-blue">
-            Contact
-          </p>
-          <div class="custom-line-text-contact"></div>
-        </div>
         <div class="mx-auto max-w-xl lg:mx-0 lg:max-w-lg">
           <h2 class="text-4xl font-semibold text-black">Get in touch</h2>
           <p class="mb-6 mt-6 text-base text-black">

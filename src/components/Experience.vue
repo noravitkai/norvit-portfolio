@@ -1,5 +1,5 @@
 <template>
-  <section class="overflow-hidden bg-bg02" id="experience">
+  <section class="hidden overflow-hidden bg-bg02 lg:block" id="experience">
     <!-- general description with tabs -->
     <div class="mx-auto max-w-7xl px-6 pb-12 pt-24">
       <div class="flex">
@@ -106,7 +106,7 @@
     </div>
     <!-- projects content -->
     <div class="mx-auto flex max-w-7xl flex-col gap-20 px-6 pb-24 pt-12">
-      <div class="grid grid-cols-2 grid-rows-1 gap-20">
+      <div class="grid grid-cols-2 grid-rows-1 items-center gap-20">
         <div class="flex">
           <div class="mt-9 flex flex-col items-center">
             <p class="-rotate-90 text-sm font-medium uppercase text-yellow">
@@ -121,8 +121,14 @@
                 block: openTab === 1,
               }"
             >
-              <h3>Web design</h3>
-              <p>Bla bla bla</p>
+              <h3>Project name</h3>
+              <p>
+                Lorem ipsum lorem ipsum lorem lorem ipsum lorem ipsum bla bla
+                bla lorem ipsum lorem lorem ipsum lorem ipsum bla bla bla bla
+                bla bla lorem ipsum lorem lorem ipsum lorem ipsum bla bla bla
+                bla bla bla bla bla bla bla lbangvghvjz lorem ipsum lorem lorem
+                ipsum lorem ipsum bla bla bla…
+              </p>
             </div>
             <div
               v-bind:class="{
@@ -130,8 +136,14 @@
                 block: openTab === 2,
               }"
             >
-              <h3>Logo design</h3>
-              <p>Bla bla bla</p>
+              <h3>Project name</h3>
+              <p>
+                Lorem ipsum lorem ipsum lorem lorem ipsum lorem ipsum bla bla
+                bla lorem ipsum lorem lorem ipsum lorem ipsum bla bla bla bla
+                bla bla lorem ipsum lorem lorem ipsum lorem ipsum bla bla bla
+                bla bla bla bla bla bla bla lbangvghvjz lorem ipsum lorem lorem
+                ipsum lorem ipsum bla bla bla…
+              </p>
             </div>
             <div
               v-bind:class="{
@@ -139,8 +151,14 @@
                 block: openTab === 3,
               }"
             >
-              <h3>Page Layout design</h3>
-              <p>Bla bla bla</p>
+              <h3>Project name</h3>
+              <p>
+                Lorem ipsum lorem ipsum lorem lorem ipsum lorem ipsum bla bla
+                bla lorem ipsum lorem lorem ipsum lorem ipsum bla bla bla bla
+                bla bla lorem ipsum lorem lorem ipsum lorem ipsum bla bla bla
+                bla bla bla bla bla bla bla lbangvghvjz lorem ipsum lorem lorem
+                ipsum lorem ipsum bla bla bla…
+              </p>
             </div>
             <div
               v-bind:class="{
@@ -148,8 +166,14 @@
                 block: openTab === 4,
               }"
             >
-              <h3>Video editing</h3>
-              <p>Bla bla bla</p>
+              <h3>Project name</h3>
+              <p>
+                Lorem ipsum lorem ipsum lorem lorem ipsum lorem ipsum bla bla
+                bla lorem ipsum lorem lorem ipsum lorem ipsum bla bla bla bla
+                bla bla lorem ipsum lorem lorem ipsum lorem ipsum bla bla bla
+                bla bla bla bla bla bla bla lbangvghvjz lorem ipsum lorem lorem
+                ipsum lorem ipsum bla bla bla…
+              </p>
             </div>
             <div
               v-bind:class="{
@@ -157,8 +181,14 @@
                 block: openTab === 5,
               }"
             >
-              <h3>SoME Management</h3>
-              <p>Bla bla bla</p>
+              <h3>Project name</h3>
+              <p>
+                Lorem ipsum lorem ipsum lorem lorem ipsum lorem ipsum bla bla
+                bla lorem ipsum lorem lorem ipsum lorem ipsum bla bla bla bla
+                bla bla lorem ipsum lorem lorem ipsum lorem ipsum bla bla bla
+                bla bla bla bla bla bla bla lbangvghvjz lorem ipsum lorem lorem
+                ipsum lorem ipsum bla bla bla…
+              </p>
             </div>
             <div
               v-bind:class="{
@@ -166,8 +196,14 @@
                 block: openTab === 6,
               }"
             >
-              <h3>Copywriting</h3>
-              <p>Bla bla bla</p>
+              <h3>Project name</h3>
+              <p>
+                Lorem ipsum lorem ipsum lorem lorem ipsum lorem ipsum bla bla
+                bla lorem ipsum lorem lorem ipsum lorem ipsum bla bla bla bla
+                bla bla lorem ipsum lorem lorem ipsum lorem ipsum bla bla bla
+                bla bla bla bla bla bla bla lbangvghvjz lorem ipsum lorem lorem
+                ipsum lorem ipsum bla bla bla…
+              </p>
             </div>
           </div>
         </div>
@@ -177,91 +213,7 @@
             block: openTab === 1,
           }"
         >
-          <div id="gallery" class="relative w-full" data-carousel="slide">
-            <!-- carousel wrapper -->
-            <div class="relative h-56 overflow-hidden rounded-lg md:h-96">
-              <!-- item01 -->
-              <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                <img
-                  src="src/assets/logo-paper-mockup.jpg"
-                  class="absolute left-1/2 top-1/2 block h-auto max-w-full -translate-x-1/2 -translate-y-1/2"
-                  alt=""
-                />
-              </div>
-              <!-- item02 -->
-              <div
-                class="hidden duration-700 ease-in-out"
-                data-carousel-item="active"
-              >
-                <img
-                  src="src/assets/logo-office-mockup.jpg"
-                  class="absolute left-1/2 top-1/2 block h-auto max-w-full -translate-x-1/2 -translate-y-1/2"
-                  alt=""
-                />
-              </div>
-              <!-- item03 -->
-              <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                <img
-                  src="src/assets/website-laptop-mockup.jpg"
-                  class="absolute left-1/2 top-1/2 block h-auto max-w-full -translate-x-1/2 -translate-y-1/2"
-                  alt=""
-                />
-              </div>
-            </div>
-            <!-- slider controls -->
-            <button
-              type="button"
-              class="group absolute left-0 top-0 z-30 flex h-full cursor-pointer items-center justify-center px-4 focus:outline-none"
-              data-carousel-prev
-            >
-              <span
-                class="inline-flex h-10 w-10 items-center justify-center rounded-full bg-white/30 shadow-xl group-hover:bg-yellow group-focus:bg-yellow group-focus:outline-none"
-              >
-                <svg
-                  aria-hidden="true"
-                  class="h-6 w-6 text-black"
-                  fill="none"
-                  stroke="currentColor"
-                  viewBox="0 0 24 24"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M15 19l-7-7 7-7"
-                  ></path>
-                </svg>
-                <span class="sr-only">Previous</span>
-              </span>
-            </button>
-            <button
-              type="button"
-              class="group absolute right-0 top-0 z-30 flex h-full cursor-pointer items-center justify-center px-4 focus:outline-none"
-              data-carousel-next
-            >
-              <span
-                class="inline-flex h-10 w-10 items-center justify-center rounded-full bg-white/30 shadow-xl group-hover:bg-yellow group-focus:bg-yellow group-focus:outline-none"
-              >
-                <svg
-                  aria-hidden="true"
-                  class="h-6 w-6 text-black"
-                  fill="none"
-                  stroke="currentColor"
-                  viewBox="0 0 24 24"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M9 5l7 7-7 7"
-                  ></path>
-                </svg>
-                <span class="sr-only">Next</span>
-              </span>
-            </button>
-          </div>
+          <WebSlider />
         </div>
         <div
           v-bind:class="{
@@ -269,91 +221,7 @@
             block: openTab === 2,
           }"
         >
-          <div id="gallery" class="relative w-full" data-carousel="slide">
-            <!-- carousel wrapper -->
-            <div class="relative h-56 overflow-hidden rounded-lg md:h-96">
-              <!-- item01 -->
-              <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                <img
-                  src="src/assets/logo-paper-mockup.jpg"
-                  class="absolute left-1/2 top-1/2 block h-auto max-w-full -translate-x-1/2 -translate-y-1/2"
-                  alt=""
-                />
-              </div>
-              <!-- item02 -->
-              <div
-                class="hidden duration-700 ease-in-out"
-                data-carousel-item="active"
-              >
-                <img
-                  src="src/assets/logo-office-mockup.jpg"
-                  class="absolute left-1/2 top-1/2 block h-auto max-w-full -translate-x-1/2 -translate-y-1/2"
-                  alt=""
-                />
-              </div>
-              <!-- item03 -->
-              <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                <img
-                  src="src/assets/website-laptop-mockup.jpg"
-                  class="absolute left-1/2 top-1/2 block h-auto max-w-full -translate-x-1/2 -translate-y-1/2"
-                  alt=""
-                />
-              </div>
-            </div>
-            <!-- slider controls -->
-            <button
-              type="button"
-              class="group absolute left-0 top-0 z-30 flex h-full cursor-pointer items-center justify-center px-4 focus:outline-none"
-              data-carousel-prev
-            >
-              <span
-                class="inline-flex h-10 w-10 items-center justify-center rounded-full bg-white/30 shadow-xl group-hover:bg-yellow group-focus:bg-yellow group-focus:outline-none"
-              >
-                <svg
-                  aria-hidden="true"
-                  class="h-6 w-6 text-black"
-                  fill="none"
-                  stroke="currentColor"
-                  viewBox="0 0 24 24"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M15 19l-7-7 7-7"
-                  ></path>
-                </svg>
-                <span class="sr-only">Previous</span>
-              </span>
-            </button>
-            <button
-              type="button"
-              class="group absolute right-0 top-0 z-30 flex h-full cursor-pointer items-center justify-center px-4 focus:outline-none"
-              data-carousel-next
-            >
-              <span
-                class="inline-flex h-10 w-10 items-center justify-center rounded-full bg-white/30 shadow-xl group-hover:bg-yellow group-focus:bg-yellow group-focus:outline-none"
-              >
-                <svg
-                  aria-hidden="true"
-                  class="h-6 w-6 text-black"
-                  fill="none"
-                  stroke="currentColor"
-                  viewBox="0 0 24 24"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M9 5l7 7-7 7"
-                  ></path>
-                </svg>
-                <span class="sr-only">Next</span>
-              </span>
-            </button>
-          </div>
+          <LogoSlider />
         </div>
         <div
           v-bind:class="{
@@ -361,91 +229,7 @@
             block: openTab === 3,
           }"
         >
-          <div id="gallery" class="relative w-full" data-carousel="slide">
-            <!-- carousel wrapper -->
-            <div class="relative h-56 overflow-hidden rounded-lg md:h-96">
-              <!-- item01 -->
-              <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                <img
-                  src="src/assets/logo-paper-mockup.jpg"
-                  class="absolute left-1/2 top-1/2 block h-auto max-w-full -translate-x-1/2 -translate-y-1/2"
-                  alt=""
-                />
-              </div>
-              <!-- item02 -->
-              <div
-                class="hidden duration-700 ease-in-out"
-                data-carousel-item="active"
-              >
-                <img
-                  src="src/assets/logo-office-mockup.jpg"
-                  class="absolute left-1/2 top-1/2 block h-auto max-w-full -translate-x-1/2 -translate-y-1/2"
-                  alt=""
-                />
-              </div>
-              <!-- item03 -->
-              <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                <img
-                  src="src/assets/website-laptop-mockup.jpg"
-                  class="absolute left-1/2 top-1/2 block h-auto max-w-full -translate-x-1/2 -translate-y-1/2"
-                  alt=""
-                />
-              </div>
-            </div>
-            <!-- slider controls -->
-            <button
-              type="button"
-              class="group absolute left-0 top-0 z-30 flex h-full cursor-pointer items-center justify-center px-4 focus:outline-none"
-              data-carousel-prev
-            >
-              <span
-                class="inline-flex h-10 w-10 items-center justify-center rounded-full bg-white/30 shadow-xl group-hover:bg-yellow group-focus:bg-yellow group-focus:outline-none"
-              >
-                <svg
-                  aria-hidden="true"
-                  class="h-6 w-6 text-black"
-                  fill="none"
-                  stroke="currentColor"
-                  viewBox="0 0 24 24"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M15 19l-7-7 7-7"
-                  ></path>
-                </svg>
-                <span class="sr-only">Previous</span>
-              </span>
-            </button>
-            <button
-              type="button"
-              class="group absolute right-0 top-0 z-30 flex h-full cursor-pointer items-center justify-center px-4 focus:outline-none"
-              data-carousel-next
-            >
-              <span
-                class="inline-flex h-10 w-10 items-center justify-center rounded-full bg-white/30 shadow-xl group-hover:bg-yellow group-focus:bg-yellow group-focus:outline-none"
-              >
-                <svg
-                  aria-hidden="true"
-                  class="h-6 w-6 text-black"
-                  fill="none"
-                  stroke="currentColor"
-                  viewBox="0 0 24 24"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M9 5l7 7-7 7"
-                  ></path>
-                </svg>
-                <span class="sr-only">Next</span>
-              </span>
-            </button>
-          </div>
+          <PageSlider />
         </div>
         <div
           v-bind:class="{
@@ -453,91 +237,7 @@
             block: openTab === 4,
           }"
         >
-          <div id="gallery" class="relative w-full" data-carousel="slide">
-            <!-- carousel wrapper -->
-            <div class="relative h-56 overflow-hidden rounded-lg md:h-96">
-              <!-- item01 -->
-              <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                <img
-                  src="src/assets/logo-paper-mockup.jpg"
-                  class="absolute left-1/2 top-1/2 block h-auto max-w-full -translate-x-1/2 -translate-y-1/2"
-                  alt=""
-                />
-              </div>
-              <!-- item02 -->
-              <div
-                class="hidden duration-700 ease-in-out"
-                data-carousel-item="active"
-              >
-                <img
-                  src="src/assets/logo-office-mockup.jpg"
-                  class="absolute left-1/2 top-1/2 block h-auto max-w-full -translate-x-1/2 -translate-y-1/2"
-                  alt=""
-                />
-              </div>
-              <!-- item03 -->
-              <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                <img
-                  src="src/assets/website-laptop-mockup.jpg"
-                  class="absolute left-1/2 top-1/2 block h-auto max-w-full -translate-x-1/2 -translate-y-1/2"
-                  alt=""
-                />
-              </div>
-            </div>
-            <!-- slider controls -->
-            <button
-              type="button"
-              class="group absolute left-0 top-0 z-30 flex h-full cursor-pointer items-center justify-center px-4 focus:outline-none"
-              data-carousel-prev
-            >
-              <span
-                class="inline-flex h-10 w-10 items-center justify-center rounded-full bg-white/30 shadow-xl group-hover:bg-yellow group-focus:bg-yellow group-focus:outline-none"
-              >
-                <svg
-                  aria-hidden="true"
-                  class="h-6 w-6 text-black"
-                  fill="none"
-                  stroke="currentColor"
-                  viewBox="0 0 24 24"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M15 19l-7-7 7-7"
-                  ></path>
-                </svg>
-                <span class="sr-only">Previous</span>
-              </span>
-            </button>
-            <button
-              type="button"
-              class="group absolute right-0 top-0 z-30 flex h-full cursor-pointer items-center justify-center px-4 focus:outline-none"
-              data-carousel-next
-            >
-              <span
-                class="inline-flex h-10 w-10 items-center justify-center rounded-full bg-white/30 shadow-xl group-hover:bg-yellow group-focus:bg-yellow group-focus:outline-none"
-              >
-                <svg
-                  aria-hidden="true"
-                  class="h-6 w-6 text-black"
-                  fill="none"
-                  stroke="currentColor"
-                  viewBox="0 0 24 24"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M9 5l7 7-7 7"
-                  ></path>
-                </svg>
-                <span class="sr-only">Next</span>
-              </span>
-            </button>
-          </div>
+          <VideoSlider />
         </div>
         <div
           v-bind:class="{
@@ -545,91 +245,7 @@
             block: openTab === 5,
           }"
         >
-          <div id="gallery" class="relative w-full" data-carousel="slide">
-            <!-- carousel wrapper -->
-            <div class="relative h-56 overflow-hidden rounded-lg md:h-96">
-              <!-- item01 -->
-              <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                <img
-                  src="src/assets/logo-paper-mockup.jpg"
-                  class="absolute left-1/2 top-1/2 block h-auto max-w-full -translate-x-1/2 -translate-y-1/2"
-                  alt=""
-                />
-              </div>
-              <!-- item02 -->
-              <div
-                class="hidden duration-700 ease-in-out"
-                data-carousel-item="active"
-              >
-                <img
-                  src="src/assets/logo-office-mockup.jpg"
-                  class="absolute left-1/2 top-1/2 block h-auto max-w-full -translate-x-1/2 -translate-y-1/2"
-                  alt=""
-                />
-              </div>
-              <!-- item03 -->
-              <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                <img
-                  src="src/assets/website-laptop-mockup.jpg"
-                  class="absolute left-1/2 top-1/2 block h-auto max-w-full -translate-x-1/2 -translate-y-1/2"
-                  alt=""
-                />
-              </div>
-            </div>
-            <!-- slider controls -->
-            <button
-              type="button"
-              class="group absolute left-0 top-0 z-30 flex h-full cursor-pointer items-center justify-center px-4 focus:outline-none"
-              data-carousel-prev
-            >
-              <span
-                class="inline-flex h-10 w-10 items-center justify-center rounded-full bg-white/30 shadow-xl group-hover:bg-yellow group-focus:bg-yellow group-focus:outline-none"
-              >
-                <svg
-                  aria-hidden="true"
-                  class="h-6 w-6 text-black"
-                  fill="none"
-                  stroke="currentColor"
-                  viewBox="0 0 24 24"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M15 19l-7-7 7-7"
-                  ></path>
-                </svg>
-                <span class="sr-only">Previous</span>
-              </span>
-            </button>
-            <button
-              type="button"
-              class="group absolute right-0 top-0 z-30 flex h-full cursor-pointer items-center justify-center px-4 focus:outline-none"
-              data-carousel-next
-            >
-              <span
-                class="inline-flex h-10 w-10 items-center justify-center rounded-full bg-white/30 shadow-xl group-hover:bg-yellow group-focus:bg-yellow group-focus:outline-none"
-              >
-                <svg
-                  aria-hidden="true"
-                  class="h-6 w-6 text-black"
-                  fill="none"
-                  stroke="currentColor"
-                  viewBox="0 0 24 24"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M9 5l7 7-7 7"
-                  ></path>
-                </svg>
-                <span class="sr-only">Next</span>
-              </span>
-            </button>
-          </div>
+          <SomeSlider />
         </div>
         <div
           v-bind:class="{
@@ -637,186 +253,18 @@
             block: openTab === 6,
           }"
         >
-          <div id="gallery" class="relative w-full" data-carousel="slide">
-            <!-- carousel wrapper -->
-            <div class="relative h-56 overflow-hidden rounded-lg md:h-96">
-              <!-- item01 -->
-              <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                <img
-                  src="src/assets/logo-paper-mockup.jpg"
-                  class="absolute left-1/2 top-1/2 block h-auto max-w-full -translate-x-1/2 -translate-y-1/2"
-                  alt=""
-                />
-              </div>
-              <!-- item02 -->
-              <div
-                class="hidden duration-700 ease-in-out"
-                data-carousel-item="active"
-              >
-                <img
-                  src="src/assets/logo-office-mockup.jpg"
-                  class="absolute left-1/2 top-1/2 block h-auto max-w-full -translate-x-1/2 -translate-y-1/2"
-                  alt=""
-                />
-              </div>
-              <!-- item03 -->
-              <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                <img
-                  src="src/assets/website-laptop-mockup.jpg"
-                  class="absolute left-1/2 top-1/2 block h-auto max-w-full -translate-x-1/2 -translate-y-1/2"
-                  alt=""
-                />
-              </div>
-            </div>
-            <!-- slider controls -->
-            <button
-              type="button"
-              class="group absolute left-0 top-0 z-30 flex h-full cursor-pointer items-center justify-center px-4 focus:outline-none"
-              data-carousel-prev
-            >
-              <span
-                class="inline-flex h-10 w-10 items-center justify-center rounded-full bg-white/30 shadow-xl group-hover:bg-yellow group-focus:bg-yellow group-focus:outline-none"
-              >
-                <svg
-                  aria-hidden="true"
-                  class="h-6 w-6 text-black"
-                  fill="none"
-                  stroke="currentColor"
-                  viewBox="0 0 24 24"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M15 19l-7-7 7-7"
-                  ></path>
-                </svg>
-                <span class="sr-only">Previous</span>
-              </span>
-            </button>
-            <button
-              type="button"
-              class="group absolute right-0 top-0 z-30 flex h-full cursor-pointer items-center justify-center px-4 focus:outline-none"
-              data-carousel-next
-            >
-              <span
-                class="inline-flex h-10 w-10 items-center justify-center rounded-full bg-white/30 shadow-xl group-hover:bg-yellow group-focus:bg-yellow group-focus:outline-none"
-              >
-                <svg
-                  aria-hidden="true"
-                  class="h-6 w-6 text-black"
-                  fill="none"
-                  stroke="currentColor"
-                  viewBox="0 0 24 24"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M9 5l7 7-7 7"
-                  ></path>
-                </svg>
-                <span class="sr-only">Next</span>
-              </span>
-            </button>
-          </div>
+          <CopywritingSlider />
         </div>
       </div>
       <!-- Second part - reversed -->
-      <div class="grid grid-cols-2 grid-rows-1 gap-20">
+      <div class="grid grid-cols-2 grid-rows-1 items-center gap-20">
         <div
           v-bind:class="{
             hidden: openTab !== 1,
             block: openTab === 1,
           }"
         >
-          <div id="gallery" class="relative w-full" data-carousel="slide">
-            <!-- carousel wrapper -->
-            <div class="relative h-56 overflow-hidden rounded-lg md:h-96">
-              <!-- item01 -->
-              <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                <img
-                  src="src/assets/logo-paper-mockup.jpg"
-                  class="absolute left-1/2 top-1/2 block h-auto max-w-full -translate-x-1/2 -translate-y-1/2"
-                  alt=""
-                />
-              </div>
-              <!-- item02 -->
-              <div
-                class="hidden duration-700 ease-in-out"
-                data-carousel-item="active"
-              >
-                <img
-                  src="src/assets/logo-office-mockup.jpg"
-                  class="absolute left-1/2 top-1/2 block h-auto max-w-full -translate-x-1/2 -translate-y-1/2"
-                  alt=""
-                />
-              </div>
-              <!-- item03 -->
-              <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                <img
-                  src="src/assets/website-laptop-mockup.jpg"
-                  class="absolute left-1/2 top-1/2 block h-auto max-w-full -translate-x-1/2 -translate-y-1/2"
-                  alt=""
-                />
-              </div>
-            </div>
-            <!-- slider controls -->
-            <button
-              type="button"
-              class="group absolute left-0 top-0 z-30 flex h-full cursor-pointer items-center justify-center px-4 focus:outline-none"
-              data-carousel-prev
-            >
-              <span
-                class="inline-flex h-10 w-10 items-center justify-center rounded-full bg-white/30 shadow-xl group-hover:bg-yellow group-focus:bg-yellow group-focus:outline-none"
-              >
-                <svg
-                  aria-hidden="true"
-                  class="h-6 w-6 text-black"
-                  fill="none"
-                  stroke="currentColor"
-                  viewBox="0 0 24 24"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M15 19l-7-7 7-7"
-                  ></path>
-                </svg>
-                <span class="sr-only">Previous</span>
-              </span>
-            </button>
-            <button
-              type="button"
-              class="group absolute right-0 top-0 z-30 flex h-full cursor-pointer items-center justify-center px-4 focus:outline-none"
-              data-carousel-next
-            >
-              <span
-                class="inline-flex h-10 w-10 items-center justify-center rounded-full bg-white/30 shadow-xl group-hover:bg-yellow group-focus:bg-yellow group-focus:outline-none"
-              >
-                <svg
-                  aria-hidden="true"
-                  class="h-6 w-6 text-black"
-                  fill="none"
-                  stroke="currentColor"
-                  viewBox="0 0 24 24"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M9 5l7 7-7 7"
-                  ></path>
-                </svg>
-                <span class="sr-only">Next</span>
-              </span>
-            </button>
-          </div>
+          <WebSliderTwo />
         </div>
         <div
           v-bind:class="{
@@ -824,91 +272,7 @@
             block: openTab === 2,
           }"
         >
-          <div id="gallery" class="relative w-full" data-carousel="slide">
-            <!-- carousel wrapper -->
-            <div class="relative h-56 overflow-hidden rounded-lg md:h-96">
-              <!-- item01 -->
-              <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                <img
-                  src="src/assets/logo-paper-mockup.jpg"
-                  class="absolute left-1/2 top-1/2 block h-auto max-w-full -translate-x-1/2 -translate-y-1/2"
-                  alt=""
-                />
-              </div>
-              <!-- item02 -->
-              <div
-                class="hidden duration-700 ease-in-out"
-                data-carousel-item="active"
-              >
-                <img
-                  src="src/assets/logo-office-mockup.jpg"
-                  class="absolute left-1/2 top-1/2 block h-auto max-w-full -translate-x-1/2 -translate-y-1/2"
-                  alt=""
-                />
-              </div>
-              <!-- item03 -->
-              <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                <img
-                  src="src/assets/website-laptop-mockup.jpg"
-                  class="absolute left-1/2 top-1/2 block h-auto max-w-full -translate-x-1/2 -translate-y-1/2"
-                  alt=""
-                />
-              </div>
-            </div>
-            <!-- slider controls -->
-            <button
-              type="button"
-              class="group absolute left-0 top-0 z-30 flex h-full cursor-pointer items-center justify-center px-4 focus:outline-none"
-              data-carousel-prev
-            >
-              <span
-                class="inline-flex h-10 w-10 items-center justify-center rounded-full bg-white/30 shadow-xl group-hover:bg-yellow group-focus:bg-yellow group-focus:outline-none"
-              >
-                <svg
-                  aria-hidden="true"
-                  class="h-6 w-6 text-black"
-                  fill="none"
-                  stroke="currentColor"
-                  viewBox="0 0 24 24"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M15 19l-7-7 7-7"
-                  ></path>
-                </svg>
-                <span class="sr-only">Previous</span>
-              </span>
-            </button>
-            <button
-              type="button"
-              class="group absolute right-0 top-0 z-30 flex h-full cursor-pointer items-center justify-center px-4 focus:outline-none"
-              data-carousel-next
-            >
-              <span
-                class="inline-flex h-10 w-10 items-center justify-center rounded-full bg-white/30 shadow-xl group-hover:bg-yellow group-focus:bg-yellow group-focus:outline-none"
-              >
-                <svg
-                  aria-hidden="true"
-                  class="h-6 w-6 text-black"
-                  fill="none"
-                  stroke="currentColor"
-                  viewBox="0 0 24 24"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M9 5l7 7-7 7"
-                  ></path>
-                </svg>
-                <span class="sr-only">Next</span>
-              </span>
-            </button>
-          </div>
+          <LogoSliderTwo />
         </div>
         <div
           v-bind:class="{
@@ -916,91 +280,7 @@
             block: openTab === 3,
           }"
         >
-          <div id="gallery" class="relative w-full" data-carousel="slide">
-            <!-- carousel wrapper -->
-            <div class="relative h-56 overflow-hidden rounded-lg md:h-96">
-              <!-- item01 -->
-              <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                <img
-                  src="src/assets/logo-paper-mockup.jpg"
-                  class="absolute left-1/2 top-1/2 block h-auto max-w-full -translate-x-1/2 -translate-y-1/2"
-                  alt=""
-                />
-              </div>
-              <!-- item02 -->
-              <div
-                class="hidden duration-700 ease-in-out"
-                data-carousel-item="active"
-              >
-                <img
-                  src="src/assets/logo-office-mockup.jpg"
-                  class="absolute left-1/2 top-1/2 block h-auto max-w-full -translate-x-1/2 -translate-y-1/2"
-                  alt=""
-                />
-              </div>
-              <!-- item03 -->
-              <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                <img
-                  src="src/assets/website-laptop-mockup.jpg"
-                  class="absolute left-1/2 top-1/2 block h-auto max-w-full -translate-x-1/2 -translate-y-1/2"
-                  alt=""
-                />
-              </div>
-            </div>
-            <!-- slider controls -->
-            <button
-              type="button"
-              class="group absolute left-0 top-0 z-30 flex h-full cursor-pointer items-center justify-center px-4 focus:outline-none"
-              data-carousel-prev
-            >
-              <span
-                class="inline-flex h-10 w-10 items-center justify-center rounded-full bg-white/30 shadow-xl group-hover:bg-yellow group-focus:bg-yellow group-focus:outline-none"
-              >
-                <svg
-                  aria-hidden="true"
-                  class="h-6 w-6 text-black"
-                  fill="none"
-                  stroke="currentColor"
-                  viewBox="0 0 24 24"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M15 19l-7-7 7-7"
-                  ></path>
-                </svg>
-                <span class="sr-only">Previous</span>
-              </span>
-            </button>
-            <button
-              type="button"
-              class="group absolute right-0 top-0 z-30 flex h-full cursor-pointer items-center justify-center px-4 focus:outline-none"
-              data-carousel-next
-            >
-              <span
-                class="inline-flex h-10 w-10 items-center justify-center rounded-full bg-white/30 shadow-xl group-hover:bg-yellow group-focus:bg-yellow group-focus:outline-none"
-              >
-                <svg
-                  aria-hidden="true"
-                  class="h-6 w-6 text-black"
-                  fill="none"
-                  stroke="currentColor"
-                  viewBox="0 0 24 24"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M9 5l7 7-7 7"
-                  ></path>
-                </svg>
-                <span class="sr-only">Next</span>
-              </span>
-            </button>
-          </div>
+          <PageSliderTwo />
         </div>
         <div
           v-bind:class="{
@@ -1008,91 +288,7 @@
             block: openTab === 4,
           }"
         >
-          <div id="gallery" class="relative w-full" data-carousel="slide">
-            <!-- carousel wrapper -->
-            <div class="relative h-56 overflow-hidden rounded-lg md:h-96">
-              <!-- item01 -->
-              <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                <img
-                  src="src/assets/logo-paper-mockup.jpg"
-                  class="absolute left-1/2 top-1/2 block h-auto max-w-full -translate-x-1/2 -translate-y-1/2"
-                  alt=""
-                />
-              </div>
-              <!-- item02 -->
-              <div
-                class="hidden duration-700 ease-in-out"
-                data-carousel-item="active"
-              >
-                <img
-                  src="src/assets/logo-office-mockup.jpg"
-                  class="absolute left-1/2 top-1/2 block h-auto max-w-full -translate-x-1/2 -translate-y-1/2"
-                  alt=""
-                />
-              </div>
-              <!-- item03 -->
-              <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                <img
-                  src="src/assets/website-laptop-mockup.jpg"
-                  class="absolute left-1/2 top-1/2 block h-auto max-w-full -translate-x-1/2 -translate-y-1/2"
-                  alt=""
-                />
-              </div>
-            </div>
-            <!-- slider controls -->
-            <button
-              type="button"
-              class="group absolute left-0 top-0 z-30 flex h-full cursor-pointer items-center justify-center px-4 focus:outline-none"
-              data-carousel-prev
-            >
-              <span
-                class="inline-flex h-10 w-10 items-center justify-center rounded-full bg-white/30 shadow-xl group-hover:bg-yellow group-focus:bg-yellow group-focus:outline-none"
-              >
-                <svg
-                  aria-hidden="true"
-                  class="h-6 w-6 text-black"
-                  fill="none"
-                  stroke="currentColor"
-                  viewBox="0 0 24 24"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M15 19l-7-7 7-7"
-                  ></path>
-                </svg>
-                <span class="sr-only">Previous</span>
-              </span>
-            </button>
-            <button
-              type="button"
-              class="group absolute right-0 top-0 z-30 flex h-full cursor-pointer items-center justify-center px-4 focus:outline-none"
-              data-carousel-next
-            >
-              <span
-                class="inline-flex h-10 w-10 items-center justify-center rounded-full bg-white/30 shadow-xl group-hover:bg-yellow group-focus:bg-yellow group-focus:outline-none"
-              >
-                <svg
-                  aria-hidden="true"
-                  class="h-6 w-6 text-black"
-                  fill="none"
-                  stroke="currentColor"
-                  viewBox="0 0 24 24"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M9 5l7 7-7 7"
-                  ></path>
-                </svg>
-                <span class="sr-only">Next</span>
-              </span>
-            </button>
-          </div>
+          <VideoSliderTwo />
         </div>
         <div
           v-bind:class="{
@@ -1100,91 +296,7 @@
             block: openTab === 5,
           }"
         >
-          <div id="gallery" class="relative w-full" data-carousel="slide">
-            <!-- carousel wrapper -->
-            <div class="relative h-56 overflow-hidden rounded-lg md:h-96">
-              <!-- item01 -->
-              <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                <img
-                  src="src/assets/logo-paper-mockup.jpg"
-                  class="absolute left-1/2 top-1/2 block h-auto max-w-full -translate-x-1/2 -translate-y-1/2"
-                  alt=""
-                />
-              </div>
-              <!-- item02 -->
-              <div
-                class="hidden duration-700 ease-in-out"
-                data-carousel-item="active"
-              >
-                <img
-                  src="src/assets/logo-office-mockup.jpg"
-                  class="absolute left-1/2 top-1/2 block h-auto max-w-full -translate-x-1/2 -translate-y-1/2"
-                  alt=""
-                />
-              </div>
-              <!-- item03 -->
-              <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                <img
-                  src="src/assets/website-laptop-mockup.jpg"
-                  class="absolute left-1/2 top-1/2 block h-auto max-w-full -translate-x-1/2 -translate-y-1/2"
-                  alt=""
-                />
-              </div>
-            </div>
-            <!-- slider controls -->
-            <button
-              type="button"
-              class="group absolute left-0 top-0 z-30 flex h-full cursor-pointer items-center justify-center px-4 focus:outline-none"
-              data-carousel-prev
-            >
-              <span
-                class="inline-flex h-10 w-10 items-center justify-center rounded-full bg-white/30 shadow-xl group-hover:bg-yellow group-focus:bg-yellow group-focus:outline-none"
-              >
-                <svg
-                  aria-hidden="true"
-                  class="h-6 w-6 text-black"
-                  fill="none"
-                  stroke="currentColor"
-                  viewBox="0 0 24 24"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M15 19l-7-7 7-7"
-                  ></path>
-                </svg>
-                <span class="sr-only">Previous</span>
-              </span>
-            </button>
-            <button
-              type="button"
-              class="group absolute right-0 top-0 z-30 flex h-full cursor-pointer items-center justify-center px-4 focus:outline-none"
-              data-carousel-next
-            >
-              <span
-                class="inline-flex h-10 w-10 items-center justify-center rounded-full bg-white/30 shadow-xl group-hover:bg-yellow group-focus:bg-yellow group-focus:outline-none"
-              >
-                <svg
-                  aria-hidden="true"
-                  class="h-6 w-6 text-black"
-                  fill="none"
-                  stroke="currentColor"
-                  viewBox="0 0 24 24"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M9 5l7 7-7 7"
-                  ></path>
-                </svg>
-                <span class="sr-only">Next</span>
-              </span>
-            </button>
-          </div>
+          <SomeSliderTwo />
         </div>
         <div
           v-bind:class="{
@@ -1192,91 +304,7 @@
             block: openTab === 6,
           }"
         >
-          <div id="gallery" class="relative w-full" data-carousel="slide">
-            <!-- carousel wrapper -->
-            <div class="relative h-56 overflow-hidden rounded-lg md:h-96">
-              <!-- item01 -->
-              <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                <img
-                  src="src/assets/logo-paper-mockup.jpg"
-                  class="absolute left-1/2 top-1/2 block h-auto max-w-full -translate-x-1/2 -translate-y-1/2"
-                  alt=""
-                />
-              </div>
-              <!-- item02 -->
-              <div
-                class="hidden duration-700 ease-in-out"
-                data-carousel-item="active"
-              >
-                <img
-                  src="src/assets/logo-office-mockup.jpg"
-                  class="absolute left-1/2 top-1/2 block h-auto max-w-full -translate-x-1/2 -translate-y-1/2"
-                  alt=""
-                />
-              </div>
-              <!-- item03 -->
-              <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                <img
-                  src="src/assets/website-laptop-mockup.jpg"
-                  class="absolute left-1/2 top-1/2 block h-auto max-w-full -translate-x-1/2 -translate-y-1/2"
-                  alt=""
-                />
-              </div>
-            </div>
-            <!-- slider controls -->
-            <button
-              type="button"
-              class="group absolute left-0 top-0 z-30 flex h-full cursor-pointer items-center justify-center px-4 focus:outline-none"
-              data-carousel-prev
-            >
-              <span
-                class="inline-flex h-10 w-10 items-center justify-center rounded-full bg-white/30 shadow-xl group-hover:bg-yellow group-focus:bg-yellow group-focus:outline-none"
-              >
-                <svg
-                  aria-hidden="true"
-                  class="h-6 w-6 text-black"
-                  fill="none"
-                  stroke="currentColor"
-                  viewBox="0 0 24 24"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M15 19l-7-7 7-7"
-                  ></path>
-                </svg>
-                <span class="sr-only">Previous</span>
-              </span>
-            </button>
-            <button
-              type="button"
-              class="group absolute right-0 top-0 z-30 flex h-full cursor-pointer items-center justify-center px-4 focus:outline-none"
-              data-carousel-next
-            >
-              <span
-                class="inline-flex h-10 w-10 items-center justify-center rounded-full bg-white/30 shadow-xl group-hover:bg-yellow group-focus:bg-yellow group-focus:outline-none"
-              >
-                <svg
-                  aria-hidden="true"
-                  class="h-6 w-6 text-black"
-                  fill="none"
-                  stroke="currentColor"
-                  viewBox="0 0 24 24"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M9 5l7 7-7 7"
-                  ></path>
-                </svg>
-                <span class="sr-only">Next</span>
-              </span>
-            </button>
-          </div>
+          <CopywritingSliderTwo />
         </div>
         <div class="flex justify-between">
           <div class="flex flex-col gap-4">
@@ -1286,8 +314,14 @@
                 block: openTab === 1,
               }"
             >
-              <h3 class="text-3xl font-bold">Web design</h3>
-              <p>Bla bla bla</p>
+              <h3 class="text-3xl font-bold">Project name</h3>
+              <p>
+                Lorem ipsum lorem ipsum lorem lorem ipsum lorem ipsum bla bla
+                bla lorem ipsum lorem lorem ipsum lorem ipsum bla bla bla bla
+                bla bla lorem ipsum lorem lorem ipsum lorem ipsum bla bla bla
+                bla bla bla bla bla bla bla lbangvghvjz lorem ipsum lorem lorem
+                ipsum lorem ipsum bla bla bla…
+              </p>
             </div>
             <div
               v-bind:class="{
@@ -1295,8 +329,14 @@
                 block: openTab === 2,
               }"
             >
-              <h3 class="text-3xl font-bold">Logo design</h3>
-              <p>Bla bla bla</p>
+              <h3 class="text-3xl font-bold">Project name</h3>
+              <p>
+                Lorem ipsum lorem ipsum lorem lorem ipsum lorem ipsum bla bla
+                bla lorem ipsum lorem lorem ipsum lorem ipsum bla bla bla bla
+                bla bla lorem ipsum lorem lorem ipsum lorem ipsum bla bla bla
+                bla bla bla bla bla bla bla lbangvghvjz lorem ipsum lorem lorem
+                ipsum lorem ipsum bla bla bla…
+              </p>
             </div>
             <div
               v-bind:class="{
@@ -1304,8 +344,14 @@
                 block: openTab === 3,
               }"
             >
-              <h3 class="text-3xl font-bold">Page Layout Design</h3>
-              <p>Bla bla bla</p>
+              <h3 class="text-3xl font-bold">Project name</h3>
+              <p>
+                Lorem ipsum lorem ipsum lorem lorem ipsum lorem ipsum bla bla
+                bla lorem ipsum lorem lorem ipsum lorem ipsum bla bla bla bla
+                bla bla lorem ipsum lorem lorem ipsum lorem ipsum bla bla bla
+                bla bla bla bla bla bla bla lbangvghvjz lorem ipsum lorem lorem
+                ipsum lorem ipsum bla bla bla…
+              </p>
             </div>
             <div
               v-bind:class="{
@@ -1313,8 +359,14 @@
                 block: openTab === 4,
               }"
             >
-              <h3 class="text-3xl font-bold">Video editing</h3>
-              <p>Bla bla bla</p>
+              <h3 class="text-3xl font-bold">Project name</h3>
+              <p>
+                Lorem ipsum lorem ipsum lorem lorem ipsum lorem ipsum bla bla
+                bla lorem ipsum lorem lorem ipsum lorem ipsum bla bla bla bla
+                bla bla lorem ipsum lorem lorem ipsum lorem ipsum bla bla bla
+                bla bla bla bla bla bla bla lbangvghvjz lorem ipsum lorem lorem
+                ipsum lorem ipsum bla bla bla…
+              </p>
             </div>
             <div
               v-bind:class="{
@@ -1322,8 +374,14 @@
                 block: openTab === 5,
               }"
             >
-              <h3 class="text-3xl font-bold">Some Management</h3>
-              <p>Bla bla bla</p>
+              <h3 class="text-3xl font-bold">Project name</h3>
+              <p>
+                Lorem ipsum lorem ipsum lorem lorem ipsum lorem ipsum bla bla
+                bla lorem ipsum lorem lorem ipsum lorem ipsum bla bla bla bla
+                bla bla lorem ipsum lorem lorem ipsum lorem ipsum bla bla bla
+                bla bla bla bla bla bla bla lbangvghvjz lorem ipsum lorem lorem
+                ipsum lorem ipsum bla bla bla…
+              </p>
             </div>
             <div
               v-bind:class="{
@@ -1331,8 +389,14 @@
                 block: openTab === 6,
               }"
             >
-              <h3 class="text-3xl font-bold">Copywriting</h3>
-              <p>Bla bla bla</p>
+              <h3 class="text-3xl font-bold">Project name</h3>
+              <p>
+                Lorem ipsum lorem ipsum lorem lorem ipsum lorem ipsum bla bla
+                bla lorem ipsum lorem lorem ipsum lorem ipsum bla bla bla bla
+                bla bla lorem ipsum lorem lorem ipsum lorem ipsum bla bla bla
+                bla bla bla bla bla bla bla lbangvghvjz lorem ipsum lorem lorem
+                ipsum lorem ipsum bla bla bla…
+              </p>
             </div>
           </div>
           <div class="mt-9 flex flex-col items-center">
@@ -1348,7 +412,18 @@
 </template>
 
 <script>
-import KeenSlider from "./KeenSlider.vue";
+import WebSlider from "./WebSlider.vue";
+import LogoSlider from "./LogoSlider.vue";
+import PageSlider from "./PageSlider.vue";
+import VideoSlider from "./VideoSlider.vue";
+import SomeSlider from "./SomeSlider.vue";
+import CopywritingSlider from "./CopywritingSlider.vue";
+import WebSliderTwo from "./WebSliderTwo.vue";
+import LogoSliderTwo from "./LogoSliderTwo.vue";
+import PageSliderTwo from "./PageSliderTwo.vue";
+import VideoSliderTwo from "./VideoSliderTwo.vue";
+import SomeSliderTwo from "./SomeSliderTwo.vue";
+import CopywritingSliderTwo from "./CopywritingSliderTwo.vue";
 
 export default {
   name: "pink-tabs",
@@ -1362,6 +437,19 @@ export default {
       this.openTab = tabNumber;
     },
   },
-  components: { KeenSlider },
+  components: {
+    WebSlider,
+    LogoSlider,
+    PageSlider,
+    VideoSlider,
+    SomeSlider,
+    CopywritingSlider,
+    WebSliderTwo,
+    LogoSliderTwo,
+    PageSliderTwo,
+    VideoSliderTwo,
+    SomeSliderTwo,
+    CopywritingSliderTwo,
+  },
 };
 </script>
