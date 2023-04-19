@@ -4,6 +4,7 @@
       <!-- first part -->
       <div class="grid items-center gap-14 md:grid-cols-2">
         <div class="order-2 sm:order-1">
+          <!-- video CV -->
           <div>
             <div class="aspect-h-9 aspect-w-16">
               <iframe
@@ -14,7 +15,6 @@
               ></iframe>
             </div>
           </div>
-          <!-- video CV -->
         </div>
         <div class="order-1 flex sm:order-2">
           <div class="flex flex-col gap-6">

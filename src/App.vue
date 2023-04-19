@@ -3,6 +3,7 @@ import NavBar from "./components/NavBar.vue";
 import HeroSection from "./components/HeroSection.vue";
 import About from "./components/About.vue";
 import Experience from "./components/Experience.vue";
+import Test from "./components/test.vue";
 </script>
 
 <template>
@@ -10,4 +11,5 @@ import Experience from "./components/Experience.vue";
   <HeroSection />
   <About />
   <Experience />
+  <Test />
 </template>
