@@ -399,6 +399,6 @@ export default {
       this.openTab = tabNumber;
     },
   },
-  components: { Swiper },
+  components: { KeenSlider },
 };
 </script>

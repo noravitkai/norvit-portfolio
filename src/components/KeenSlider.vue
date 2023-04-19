@@ -1,6 +1,8 @@
 <template>
   <div ref="slider" class="keen-slider">
-    <div class="keen-slider__slide number-slide1">1</div>
+    <div class="keen-slider__slide number-slide1">
+      <img src="src/assets/IMG_0163.JPG" class="w-32" alt="" />
+    </div>
     <div class="keen-slider__slide number-slide2">2</div>
     <div class="keen-slider__slide number-slide3">3</div>
     <div class="keen-slider__slide number-slide4">4</div>
