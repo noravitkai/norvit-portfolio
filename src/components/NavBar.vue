@@ -5,7 +5,7 @@
       aria-label="Global"
     >
       <div class="flex lg:flex-1">
-        <a href="#" class="-m-1.5 p-1.5">
+        <a href="#home" class="-m-1.5 p-1.5">
           <span class="sr-only">Nora Vitkai's Portfolio</span>
           <img class="h-10 w-auto" src="../assets/me.svg" alt="" />
         </a>
@@ -22,17 +22,17 @@
       </div>
       <PopoverGroup class="hidden lg:flex lg:gap-x-12">
         <a
-          href="#"
+          href="#home"
           class="text-sm font-semibold leading-6 text-black hover:text-yellow"
           >Home</a
         >
         <a
-          href="#"
+          href="#about"
           class="text-sm font-semibold leading-6 text-black hover:text-yellow"
           >About</a
         >
         <a
-          href="#"
+          href="#experience"
           class="text-sm font-semibold leading-6 text-black hover:text-yellow"
           >Experience</a
         >
@@ -101,7 +101,7 @@
 <script setup>
 import { ref } from "vue";
 import { Dialog, DialogPanel, PopoverGroup } from "@headlessui/vue";
-import { Bars3Icon, XMarkIcon, ArrowDownIcon } from "@heroicons/vue/24/outline";
+import { Bars3Icon, XMarkIcon } from "@heroicons/vue/24/outline";
 
 const mobileMenuOpen = ref(false);
 </script>

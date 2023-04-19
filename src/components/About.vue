@@ -1,20 +1,24 @@
 <template>
-  <section class="bg-bg01">
+  <section class="bg-bg01" id="about">
     <div class="mx-auto max-w-7xl px-6 py-24">
+      <!-- first part -->
       <div class="grid items-center gap-14 md:grid-cols-2">
         <div class="order-2 sm:order-1">
-          <iframe
-            width="560"
-            height="315"
-            src="https://www.youtube.com/embed/t_WDUt50p6U"
-            title="YouTube video player"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            allowfullscreen
-          ></iframe>
+          <div>
+            <div class="aspect-h-9 aspect-w-16">
+              <iframe
+                src="https://www.youtube.com/embed/t_WDUt50p6U"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+            </div>
+          </div>
+          <!-- video CV -->
         </div>
         <div class="order-1 flex sm:order-2">
           <div class="flex flex-col gap-6">
+            <!-- description text -->
             <h2 class="text-4xl">Lorem ipsum</h2>
             <p class="text-base">
               Lorem ipsum lorem ipsum lorem lorem ipsum lorem ipsum bla bla bla
@@ -23,6 +27,7 @@
               bla bla bla bla lbangvghvjz lorem ipsum lorem lorem ipsum lorem
               ipsum bla bla bla…
             </p>
+            <!-- contact button -->
             <div class="flex flex-row">
               <a
                 href="#"
@@ -32,22 +37,25 @@
               </a>
             </div>
           </div>
+          <!-- section marker -->
           <div class="mt-4 flex flex-col items-center">
             <p class="-rotate-90 text-sm font-medium uppercase text-blue">
               About
             </p>
-            <div class="custom-line-text"></div>
+            <div class="custom-line-text-about"></div>
           </div>
         </div>
       </div>
-      <!-- Second part -->
+      <!-- second part -->
+      <!-- bigger screens -->
       <div class="mt-24 hidden md:block">
         <div
-          class="grid items-center gap-4 sm:gap-14 md:grid-cols-1 md:grid-rows-2 lg:grid-cols-2 lg:grid-rows-1"
+          class="grid items-center gap-4 sm:gap-6 md:grid-cols-1 md:grid-rows-2 lg:grid-cols-2 lg:grid-rows-1"
         >
           <div class="order-2">
             <div class="flex-auto">
               <div class="tab-content tab-space">
+                <!-- skills content -->
                 <div
                   v-bind:class="{
                     hidden: openTab !== 1,
@@ -64,6 +72,7 @@
                     bla bla lorem ipsum lorem lorem ipsum.
                   </p>
                 </div>
+                <!-- tools content -->
                 <div
                   v-bind:class="{
                     hidden: openTab !== 2,
@@ -76,13 +85,15 @@
             </div>
           </div>
           <div class="order-1 flex">
+            <!-- section marker -->
             <div class="mt-4 flex flex-col items-center">
               <p class="-rotate-90 text-sm font-medium uppercase text-blue">
                 About
               </p>
-              <div class="custom-line-text"></div>
+              <div class="custom-line-text-about"></div>
             </div>
             <div class="flex flex-col gap-6">
+              <!-- description text -->
               <h2 class="text-4xl">Lorem ipsum</h2>
               <p class="text-base">
                 Lorem ipsum lorem ipsum lorem lorem ipsum lorem ipsum bla bla
@@ -91,6 +102,7 @@
                 bla bla bla bla bla bla bla lbangvghvjz lorem ipsum lorem lorem
                 ipsum lorem ipsum bla bla bla…
               </p>
+              <!-- tabs -->
               <div class="flex flex-wrap">
                 <div class="max-w-md">
                   <ul
@@ -130,18 +142,20 @@
           </div>
         </div>
       </div>
-      <!-- Mobile -->
-      <div class="mt-24 block lg:hidden">
+      <!-- smaller screens -->
+      <div class="mt-24 block md:hidden">
         <div class="grid items-center gap-4 sm:gap-14">
           <div class="order-2"></div>
           <div class="order-1 flex">
+            <!-- section marker -->
             <div class="mt-4 flex flex-col items-center">
               <p class="-rotate-90 text-sm font-medium uppercase text-blue">
                 About
               </p>
-              <div class="custom-line-text"></div>
+              <div class="custom-line-text-about"></div>
             </div>
             <div class="flex flex-col gap-6">
+              <!-- description text -->
               <h2 class="text-4xl">Lorem ipsum</h2>
               <p class="text-base">
                 Lorem ipsum lorem ipsum lorem lorem ipsum lorem ipsum bla bla
@@ -150,6 +164,7 @@
                 bla bla bla bla bla bla bla lbangvghvjz lorem ipsum lorem lorem
                 ipsum lorem ipsum bla bla bla…
               </p>
+              <!-- tabs -->
               <div class="flex flex-wrap">
                 <div class="max-w-md">
                   <ul
@@ -182,6 +197,7 @@
                   </ul>
                 </div>
               </div>
+              <!-- skills content -->
               <div class="flex-auto">
                 <div class="tab-content tab-space">
                   <div
@@ -200,6 +216,7 @@
                       without revolutionary ROI.
                     </p>
                   </div>
+                  <!-- skills content -->
                   <div
                     v-bind:class="{
                       hidden: openTab !== 2,

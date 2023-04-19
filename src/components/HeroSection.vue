@@ -1,5 +1,5 @@
 <template>
-  <section class="bg-bg02 dark:bg-gray-900">
+  <section class="bg-bg02" id="home">
     <div class="mx-auto max-w-screen-xl px-6 pb-24 pt-8 text-center">
       <div class="flex">
         <!-- social links -->
@@ -38,18 +38,18 @@
           <!-- hero text -->
           <div class="relative">
             <h1
-              class="mb-4 text-7xl font-extrabold leading-none text-yellow/40 dark:text-white md:text-8xl lg:text-9xl"
+              class="mb-4 text-7xl font-extrabold leading-none text-yellow/40 md:text-8xl lg:text-9xl"
             >
               HELLO
             </h1>
             <h2
-              class="absolute inset-x-0 top-2/3 mb-4 text-4xl font-extrabold leading-none tracking-tight text-gray-900 dark:text-white md:text-5xl lg:text-6xl"
+              class="absolute inset-x-0 top-2/3 mb-4 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl"
             >
               nice to meet you!
             </h2>
           </div>
           <p
-            class="mb-8 mt-8 text-base font-normal text-black dark:text-gray-400 sm:px-16 lg:text-xl xl:px-48"
+            class="mb-8 mt-8 text-base font-normal text-black sm:px-16 lg:text-xl xl:px-48"
           >
             My name is Nora Vitkai. I’m a professional and dedicated creative
             developer with a passion for innovation and quality. With a zeal for
