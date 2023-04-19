@@ -1,64 +1,73 @@
 <template>
   <section class="bg-bg01" id="contact">
     <div
-      class="relative mx-auto grid max-w-7xl grid-cols-1 px-6 py-24 lg:grid-cols-2"
+      class="relative mx-auto grid max-w-7xl grid-cols-1 gap-6 px-6 py-24 lg:grid-cols-2"
     >
       <div class="relative lg:static lg:flex lg:items-center">
-        <div class="mx-auto max-w-xl lg:mx-0 lg:max-w-lg">
-          <h2 class="text-4xl font-semibold text-black">Get in touch</h2>
-          <p class="mb-6 mt-6 text-base text-black">
-            Proin volutpat consequat porttitor cras nullam gravida at. Orci
-            molestie a eu arcu. Sed ut tincidunt integer elementum id sem. Arcu
-            sed malesuada et magna.
-          </p>
-          <dl class="space-y-4 text-base text-black">
-            <div class="flex gap-x-4">
-              <dt class="flex-none">
-                <span class="sr-only">Address</span>
-                <BuildingOffice2Icon
-                  class="h-[1.65rem] w-[1.35rem] text-blue"
-                  aria-hidden="true"
-                />
-              </dt>
-              <dd>
-                <span class="font-medium text-blue">Address:</span>
-                <br />
-                Esbjerg, Denmark
-              </dd>
-            </div>
-            <div class="flex gap-x-4">
-              <dt class="flex-none">
-                <span class="sr-only">Phone</span>
-                <PhoneIcon
-                  class="h-[1.65rem] w-[1.35rem] text-blue"
-                  aria-hidden="true"
-                />
-              </dt>
-              <dd>
-                <span class="font-medium text-blue">Phone:</span>
-                <br />
-                <a class="hover:text-yellow" href="tel:+1 (555) 234-5678"
-                  >+4591988343</a
-                >
-              </dd>
-            </div>
-            <div class="flex gap-x-4">
-              <dt class="flex-none">
-                <span class="sr-only">Email</span>
-                <EnvelopeIcon
-                  class="h-[1.65rem] w-[1.35rem] text-blue"
-                  aria-hidden="true"
-                />
-              </dt>
-              <dd>
-                <span class="font-medium text-blue">Email:</span>
-                <br />
-                <a class="hover:text-yellow" href="mailto:hello@example.com"
-                  >vitkai.nora@outlook.hu</a
-                >
-              </dd>
-            </div>
-          </dl>
+        <div class="lg:max-max-w-lg mx-auto flex max-w-xl lg:mx-0">
+          <!-- section marker -->
+          <div class="mt-4 flex flex-col items-center">
+            <p class="-rotate-90 text-sm font-medium uppercase text-blue">
+              About
+            </p>
+            <div class="custom-line-text-about"></div>
+          </div>
+          <div>
+            <h2 class="text-4xl font-semibold text-black">Get in touch</h2>
+            <p class="mb-6 mt-6 text-base text-black">
+              Proin volutpat consequat porttitor cras nullam gravida at. Orci
+              molestie a eu arcu. Sed ut tincidunt integer elementum id sem.
+              Arcu sed malesuada et magna.
+            </p>
+            <dl class="space-y-4 text-base text-black">
+              <div class="flex gap-x-4">
+                <dt class="flex-none">
+                  <span class="sr-only">Address</span>
+                  <BuildingOffice2Icon
+                    class="h-[1.65rem] w-[1.35rem] text-blue"
+                    aria-hidden="true"
+                  />
+                </dt>
+                <dd>
+                  <span class="font-medium text-blue">Address:</span>
+                  <br />
+                  Esbjerg, Denmark
+                </dd>
+              </div>
+              <div class="flex gap-x-4">
+                <dt class="flex-none">
+                  <span class="sr-only">Phone</span>
+                  <PhoneIcon
+                    class="h-[1.65rem] w-[1.35rem] text-blue"
+                    aria-hidden="true"
+                  />
+                </dt>
+                <dd>
+                  <span class="font-medium text-blue">Phone:</span>
+                  <br />
+                  <a class="hover:text-yellow" href="tel:+1 (555) 234-5678"
+                    >+4591988343</a
+                  >
+                </dd>
+              </div>
+              <div class="flex gap-x-4">
+                <dt class="flex-none">
+                  <span class="sr-only">Email</span>
+                  <EnvelopeIcon
+                    class="h-[1.65rem] w-[1.35rem] text-blue"
+                    aria-hidden="true"
+                  />
+                </dt>
+                <dd>
+                  <span class="font-medium text-blue">Email:</span>
+                  <br />
+                  <a class="hover:text-yellow" href="mailto:hello@example.com"
+                    >vitkai.nora@outlook.hu</a
+                  >
+                </dd>
+              </div>
+            </dl>
+          </div>
         </div>
       </div>
       <form action="#" method="POST" class="">

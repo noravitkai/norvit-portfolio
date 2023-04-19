@@ -5,15 +5,13 @@
       <div class="grid items-center gap-14 md:grid-cols-2">
         <div class="order-2 sm:order-1">
           <!-- video CV -->
-          <div>
-            <div class="aspect-h-9 aspect-w-16">
-              <iframe
-                src="https://www.youtube.com/embed/t_WDUt50p6U"
-                frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen
-              ></iframe>
-            </div>
+          <div class="aspect-h-9 aspect-w-16">
+            <iframe
+              src="https://www.youtube.com/embed/t_WDUt50p6U"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
           </div>
         </div>
         <div class="order-1 flex sm:order-2">
@@ -30,7 +28,7 @@
             <!-- contact button -->
             <div class="flex flex-row">
               <a
-                href="#"
+                href="#contact"
                 class="rounded-full border border-yellow bg-white px-3.5 py-2.5 text-sm font-semibold text-black shadow-xl hover:text-yellow focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-yellow"
               >
                 Contact me
