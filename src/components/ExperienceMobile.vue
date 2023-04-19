@@ -40,7 +40,7 @@
             </p>
           </div>
           <!-- section marker -->
-          <div class="mt-4 flex flex-col items-center">
+          <div class="mt-10 flex flex-col items-center lg:mt-4">
             <p class="-rotate-90 text-sm font-medium uppercase text-yellow">
               Experience
             </p>
@@ -57,7 +57,7 @@
         <!-- project 1 -->
         <div class="mt-6 flex">
           <!-- section marker -->
-          <div class="mt-4 flex flex-col items-center">
+          <div class="mt-10 flex flex-col items-center lg:mt-4">
             <p class="-rotate-90 text-sm font-medium uppercase text-yellow">
               Experience
             </p>
@@ -92,7 +92,7 @@
             </p>
           </div>
           <!-- section marker -->
-          <div class="mt-4 flex flex-col items-center">
+          <div class="mt-10 flex flex-col items-center lg:mt-4">
             <p class="-rotate-90 text-sm font-medium uppercase text-yellow">
               Experience
             </p>
@@ -109,7 +109,7 @@
         <!-- project 1 -->
         <div class="mt-6 flex">
           <!-- section marker -->
-          <div class="mt-4 flex flex-col items-center">
+          <div class="mt-10 flex flex-col items-center lg:mt-4">
             <p class="-rotate-90 text-sm font-medium uppercase text-yellow">
               Experience
             </p>
@@ -144,7 +144,7 @@
             </p>
           </div>
           <!-- section marker -->
-          <div class="mt-4 flex flex-col items-center">
+          <div class="mt-10 flex flex-col items-center lg:mt-4">
             <p class="-rotate-90 text-sm font-medium uppercase text-yellow">
               Experience
             </p>
@@ -160,7 +160,7 @@
         <h3 class="font-semibold text-black">Video editing</h3>
         <div class="mt-6 flex">
           <!-- section marker -->
-          <div class="mt-4 flex flex-col items-center">
+          <div class="mt-10 flex flex-col items-center lg:mt-4">
             <p class="-rotate-90 text-sm font-medium uppercase text-yellow">
               Experience
             </p>
@@ -199,7 +199,7 @@
             </p>
           </div>
           <!-- section marker -->
-          <div class="mt-4 flex flex-col items-center">
+          <div class="mt-10 flex flex-col items-center lg:mt-4">
             <p class="-rotate-90 text-sm font-medium uppercase text-yellow">
               Experience
             </p>
@@ -212,7 +212,7 @@
         <!-- project 2 -->
         <div class="mt-6 flex">
           <!-- section marker -->
-          <div class="mt-4 flex flex-col items-center">
+          <div class="mt-10 flex flex-col items-center lg:mt-4">
             <p class="-rotate-90 text-sm font-medium uppercase text-yellow">
               Experience
             </p>
@@ -250,7 +250,7 @@
             </p>
           </div>
           <!-- section marker -->
-          <div class="mt-4 flex flex-col items-center">
+          <div class="mt-10 flex flex-col items-center lg:mt-4">
             <p class="-rotate-90 text-sm font-medium uppercase text-yellow">
               Experience
             </p>
