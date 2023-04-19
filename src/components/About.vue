@@ -77,7 +77,7 @@
                     block: openTab === 2,
                   }"
                 >
-                  <img src="src/assets/tools-icons.svg" alt="" />
+                  <img src="../assets/tools-icons.svg" alt="" />
                 </div>
               </div>
             </div>
@@ -221,7 +221,7 @@
                       block: openTab === 2,
                     }"
                   >
-                    <img src="src/assets/tools-icons.svg" alt="" />
+                    <img src="../assets/tools-icons.svg" alt="" />
                   </div>
                 </div>
               </div>

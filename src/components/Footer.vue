@@ -6,7 +6,7 @@
       >
         <a href="#navbar" class="mb-4 flex items-center sm:mb-0">
           <img
-            src="src/assets/me.svg"
+            src="../assets/me.svg"
             class="mr-3 h-10"
             alt="Nora Vitkai's Portfolio"
           />
