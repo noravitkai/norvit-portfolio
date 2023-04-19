@@ -6,7 +6,7 @@
         <!-- Item 1 -->
         <div class="hidden duration-700 ease-in-out" data-carousel-item>
           <img
-            src="../assets/IMG_0163.JPG"
+            src="../assets/logo-office-mockup.jpg"
             class="absolute left-1/2 top-1/2 block w-full -translate-x-1/2 -translate-y-1/2"
             alt="..."
           />
@@ -14,7 +14,7 @@
         <!-- Item 2 -->
         <div class="hidden duration-700 ease-in-out" data-carousel-item>
           <img
-            src="../assets/IMG_0163.JPG"
+            src="../assets/logo-office-mockup.jpg"
             class="absolute left-1/2 top-1/2 block w-full -translate-x-1/2 -translate-y-1/2"
             alt="..."
           />
@@ -22,7 +22,7 @@
         <!-- Item 3 -->
         <div class="hidden duration-700 ease-in-out" data-carousel-item>
           <img
-            src="../assets/IMG_0163.JPG"
+            src="../assets/logo-office-mockup.jpg"
             class="absolute left-1/2 top-1/2 block w-full -translate-x-1/2 -translate-y-1/2"
             alt="..."
           />
@@ -30,7 +30,7 @@
         <!-- Item 4 -->
         <div class="hidden duration-700 ease-in-out" data-carousel-item>
           <img
-            src="../assets/IMG_0163.JPG"
+            src="../assets/logo-office-mockup.jpg"
             class="absolute left-1/2 top-1/2 block w-full -translate-x-1/2 -translate-y-1/2"
             alt="..."
           />
@@ -38,7 +38,7 @@
         <!-- Item 5 -->
         <div class="hidden duration-700 ease-in-out" data-carousel-item>
           <img
-            src="../assets/IMG_0163.JPG"
+            src="../assets/logo-office-mockup.jpg"
             class="absolute left-1/2 top-1/2 block w-full -translate-x-1/2 -translate-y-1/2"
             alt="..."
           />
