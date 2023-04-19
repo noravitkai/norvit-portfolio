@@ -176,75 +176,49 @@
             block: openTab === 1,
           }"
         >
-          <div class="-mr-36">
-            <KeenSlider />
-          </div>
-        </div>
-        <div
-          v-bind:class="{
-            hidden: openTab !== 2,
-            block: openTab === 2,
-          }"
-        >
           <div id="gallery" class="relative w-full" data-carousel="slide">
-            <!-- Carousel wrapper -->
+            <!-- carousel wrapper -->
             <div class="relative h-56 overflow-hidden rounded-lg md:h-96">
-              <!-- Item 1 -->
+              <!-- item01 -->
               <div class="hidden duration-700 ease-in-out" data-carousel-item>
                 <img
-                  src="src/assets/IMG_0163.JPG"
+                  src="src/assets/logo-paper-mockup.jpg"
                   class="absolute left-1/2 top-1/2 block h-auto max-w-full -translate-x-1/2 -translate-y-1/2"
                   alt=""
                 />
               </div>
-              <!-- Item 2 -->
+              <!-- item02 -->
               <div
                 class="hidden duration-700 ease-in-out"
                 data-carousel-item="active"
               >
                 <img
-                  src="src/assets/IMG_0163.JPG"
+                  src="src/assets/logo-office-mockup.jpg"
                   class="absolute left-1/2 top-1/2 block h-auto max-w-full -translate-x-1/2 -translate-y-1/2"
                   alt=""
                 />
               </div>
-              <!-- Item 3 -->
+              <!-- item03 -->
               <div class="hidden duration-700 ease-in-out" data-carousel-item>
                 <img
-                  src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-3.jpg"
-                  class="absolute left-1/2 top-1/2 block h-auto max-w-full -translate-x-1/2 -translate-y-1/2"
-                  alt=""
-                />
-              </div>
-              <!-- Item 4 -->
-              <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                <img
-                  src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-4.jpg"
-                  class="absolute left-1/2 top-1/2 block h-auto max-w-full -translate-x-1/2 -translate-y-1/2"
-                  alt=""
-                />
-              </div>
-              <!-- Item 5 -->
-              <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                <img
-                  src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-5.jpg"
+                  src="src/assets/website-laptop-mockup.jpg"
                   class="absolute left-1/2 top-1/2 block h-auto max-w-full -translate-x-1/2 -translate-y-1/2"
                   alt=""
                 />
               </div>
             </div>
-            <!-- Slider controls -->
+            <!-- slider controls -->
             <button
               type="button"
               class="group absolute left-0 top-0 z-30 flex h-full cursor-pointer items-center justify-center px-4 focus:outline-none"
               data-carousel-prev
             >
               <span
-                class="inline-flex h-10 w-10 items-center justify-center rounded-full bg-white/30 group-hover:bg-white/50 group-focus:outline-none group-focus:ring-4 group-focus:ring-white dark:bg-gray-800/30 dark:group-hover:bg-gray-800/60 dark:group-focus:ring-gray-800/70"
+                class="inline-flex h-10 w-10 items-center justify-center rounded-full bg-white/30 shadow-xl group-hover:bg-yellow group-focus:bg-yellow group-focus:outline-none"
               >
                 <svg
                   aria-hidden="true"
-                  class="h-6 w-6 text-white dark:text-gray-800"
+                  class="h-6 w-6 text-black"
                   fill="none"
                   stroke="currentColor"
                   viewBox="0 0 24 24"
@@ -266,11 +240,103 @@
               data-carousel-next
             >
               <span
-                class="inline-flex h-10 w-10 items-center justify-center rounded-full bg-white/30 group-hover:bg-white/50 group-focus:outline-none group-focus:ring-4 group-focus:ring-white dark:bg-gray-800/30 dark:group-hover:bg-gray-800/60 dark:group-focus:ring-gray-800/70"
+                class="inline-flex h-10 w-10 items-center justify-center rounded-full bg-white/30 shadow-xl group-hover:bg-yellow group-focus:bg-yellow group-focus:outline-none"
               >
                 <svg
                   aria-hidden="true"
-                  class="h-6 w-6 text-white dark:text-gray-800"
+                  class="h-6 w-6 text-black"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M9 5l7 7-7 7"
+                  ></path>
+                </svg>
+                <span class="sr-only">Next</span>
+              </span>
+            </button>
+          </div>
+        </div>
+        <div
+          v-bind:class="{
+            hidden: openTab !== 2,
+            block: openTab === 2,
+          }"
+        >
+          <div id="gallery" class="relative w-full" data-carousel="slide">
+            <!-- carousel wrapper -->
+            <div class="relative h-56 overflow-hidden rounded-lg md:h-96">
+              <!-- item01 -->
+              <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                <img
+                  src="src/assets/logo-paper-mockup.jpg"
+                  class="absolute left-1/2 top-1/2 block h-auto max-w-full -translate-x-1/2 -translate-y-1/2"
+                  alt=""
+                />
+              </div>
+              <!-- item02 -->
+              <div
+                class="hidden duration-700 ease-in-out"
+                data-carousel-item="active"
+              >
+                <img
+                  src="src/assets/logo-office-mockup.jpg"
+                  class="absolute left-1/2 top-1/2 block h-auto max-w-full -translate-x-1/2 -translate-y-1/2"
+                  alt=""
+                />
+              </div>
+              <!-- item03 -->
+              <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                <img
+                  src="src/assets/website-laptop-mockup.jpg"
+                  class="absolute left-1/2 top-1/2 block h-auto max-w-full -translate-x-1/2 -translate-y-1/2"
+                  alt=""
+                />
+              </div>
+            </div>
+            <!-- slider controls -->
+            <button
+              type="button"
+              class="group absolute left-0 top-0 z-30 flex h-full cursor-pointer items-center justify-center px-4 focus:outline-none"
+              data-carousel-prev
+            >
+              <span
+                class="inline-flex h-10 w-10 items-center justify-center rounded-full bg-white/30 shadow-xl group-hover:bg-yellow group-focus:bg-yellow group-focus:outline-none"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="h-6 w-6 text-black"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M15 19l-7-7 7-7"
+                  ></path>
+                </svg>
+                <span class="sr-only">Previous</span>
+              </span>
+            </button>
+            <button
+              type="button"
+              class="group absolute right-0 top-0 z-30 flex h-full cursor-pointer items-center justify-center px-4 focus:outline-none"
+              data-carousel-next
+            >
+              <span
+                class="inline-flex h-10 w-10 items-center justify-center rounded-full bg-white/30 shadow-xl group-hover:bg-yellow group-focus:bg-yellow group-focus:outline-none"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="h-6 w-6 text-black"
                   fill="none"
                   stroke="currentColor"
                   viewBox="0 0 24 24"
@@ -294,10 +360,90 @@
             block: openTab === 3,
           }"
         >
-          <div class="grid w-[54rem] grid-cols-3 grid-rows-1 gap-4">
-            <img src="src/assets/IMG_0163.JPG" class="" alt="" />
-            <img src="src/assets/IMG_0163.JPG" class="" alt="" />
-            <img src="src/assets/IMG_0163.JPG" class="" alt="" />
+          <div id="gallery" class="relative w-full" data-carousel="slide">
+            <!-- carousel wrapper -->
+            <div class="relative h-56 overflow-hidden rounded-lg md:h-96">
+              <!-- item01 -->
+              <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                <img
+                  src="src/assets/logo-paper-mockup.jpg"
+                  class="absolute left-1/2 top-1/2 block h-auto max-w-full -translate-x-1/2 -translate-y-1/2"
+                  alt=""
+                />
+              </div>
+              <!-- item02 -->
+              <div
+                class="hidden duration-700 ease-in-out"
+                data-carousel-item="active"
+              >
+                <img
+                  src="src/assets/logo-office-mockup.jpg"
+                  class="absolute left-1/2 top-1/2 block h-auto max-w-full -translate-x-1/2 -translate-y-1/2"
+                  alt=""
+                />
+              </div>
+              <!-- item03 -->
+              <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                <img
+                  src="src/assets/website-laptop-mockup.jpg"
+                  class="absolute left-1/2 top-1/2 block h-auto max-w-full -translate-x-1/2 -translate-y-1/2"
+                  alt=""
+                />
+              </div>
+            </div>
+            <!-- slider controls -->
+            <button
+              type="button"
+              class="group absolute left-0 top-0 z-30 flex h-full cursor-pointer items-center justify-center px-4 focus:outline-none"
+              data-carousel-prev
+            >
+              <span
+                class="inline-flex h-10 w-10 items-center justify-center rounded-full bg-white/30 shadow-xl group-hover:bg-yellow group-focus:bg-yellow group-focus:outline-none"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="h-6 w-6 text-black"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M15 19l-7-7 7-7"
+                  ></path>
+                </svg>
+                <span class="sr-only">Previous</span>
+              </span>
+            </button>
+            <button
+              type="button"
+              class="group absolute right-0 top-0 z-30 flex h-full cursor-pointer items-center justify-center px-4 focus:outline-none"
+              data-carousel-next
+            >
+              <span
+                class="inline-flex h-10 w-10 items-center justify-center rounded-full bg-white/30 shadow-xl group-hover:bg-yellow group-focus:bg-yellow group-focus:outline-none"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="h-6 w-6 text-black"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M9 5l7 7-7 7"
+                  ></path>
+                </svg>
+                <span class="sr-only">Next</span>
+              </span>
+            </button>
           </div>
         </div>
         <div
@@ -306,10 +452,90 @@
             block: openTab === 4,
           }"
         >
-          <div class="grid w-[54rem] grid-cols-3 grid-rows-1 gap-4">
-            <img src="src/assets/IMG_0163.JPG" class="" alt="" />
-            <img src="src/assets/IMG_0163.JPG" class="" alt="" />
-            <img src="src/assets/IMG_0163.JPG" class="" alt="" />
+          <div id="gallery" class="relative w-full" data-carousel="slide">
+            <!-- carousel wrapper -->
+            <div class="relative h-56 overflow-hidden rounded-lg md:h-96">
+              <!-- item01 -->
+              <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                <img
+                  src="src/assets/logo-paper-mockup.jpg"
+                  class="absolute left-1/2 top-1/2 block h-auto max-w-full -translate-x-1/2 -translate-y-1/2"
+                  alt=""
+                />
+              </div>
+              <!-- item02 -->
+              <div
+                class="hidden duration-700 ease-in-out"
+                data-carousel-item="active"
+              >
+                <img
+                  src="src/assets/logo-office-mockup.jpg"
+                  class="absolute left-1/2 top-1/2 block h-auto max-w-full -translate-x-1/2 -translate-y-1/2"
+                  alt=""
+                />
+              </div>
+              <!-- item03 -->
+              <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                <img
+                  src="src/assets/website-laptop-mockup.jpg"
+                  class="absolute left-1/2 top-1/2 block h-auto max-w-full -translate-x-1/2 -translate-y-1/2"
+                  alt=""
+                />
+              </div>
+            </div>
+            <!-- slider controls -->
+            <button
+              type="button"
+              class="group absolute left-0 top-0 z-30 flex h-full cursor-pointer items-center justify-center px-4 focus:outline-none"
+              data-carousel-prev
+            >
+              <span
+                class="inline-flex h-10 w-10 items-center justify-center rounded-full bg-white/30 shadow-xl group-hover:bg-yellow group-focus:bg-yellow group-focus:outline-none"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="h-6 w-6 text-black"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M15 19l-7-7 7-7"
+                  ></path>
+                </svg>
+                <span class="sr-only">Previous</span>
+              </span>
+            </button>
+            <button
+              type="button"
+              class="group absolute right-0 top-0 z-30 flex h-full cursor-pointer items-center justify-center px-4 focus:outline-none"
+              data-carousel-next
+            >
+              <span
+                class="inline-flex h-10 w-10 items-center justify-center rounded-full bg-white/30 shadow-xl group-hover:bg-yellow group-focus:bg-yellow group-focus:outline-none"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="h-6 w-6 text-black"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M9 5l7 7-7 7"
+                  ></path>
+                </svg>
+                <span class="sr-only">Next</span>
+              </span>
+            </button>
           </div>
         </div>
         <div
@@ -318,10 +544,90 @@
             block: openTab === 5,
           }"
         >
-          <div class="grid w-[54rem] grid-cols-3 grid-rows-1 gap-4">
-            <img src="src/assets/IMG_0163.JPG" class="" alt="" />
-            <img src="src/assets/IMG_0163.JPG" class="" alt="" />
-            <img src="src/assets/IMG_0163.JPG" class="" alt="" />
+          <div id="gallery" class="relative w-full" data-carousel="slide">
+            <!-- carousel wrapper -->
+            <div class="relative h-56 overflow-hidden rounded-lg md:h-96">
+              <!-- item01 -->
+              <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                <img
+                  src="src/assets/logo-paper-mockup.jpg"
+                  class="absolute left-1/2 top-1/2 block h-auto max-w-full -translate-x-1/2 -translate-y-1/2"
+                  alt=""
+                />
+              </div>
+              <!-- item02 -->
+              <div
+                class="hidden duration-700 ease-in-out"
+                data-carousel-item="active"
+              >
+                <img
+                  src="src/assets/logo-office-mockup.jpg"
+                  class="absolute left-1/2 top-1/2 block h-auto max-w-full -translate-x-1/2 -translate-y-1/2"
+                  alt=""
+                />
+              </div>
+              <!-- item03 -->
+              <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                <img
+                  src="src/assets/website-laptop-mockup.jpg"
+                  class="absolute left-1/2 top-1/2 block h-auto max-w-full -translate-x-1/2 -translate-y-1/2"
+                  alt=""
+                />
+              </div>
+            </div>
+            <!-- slider controls -->
+            <button
+              type="button"
+              class="group absolute left-0 top-0 z-30 flex h-full cursor-pointer items-center justify-center px-4 focus:outline-none"
+              data-carousel-prev
+            >
+              <span
+                class="inline-flex h-10 w-10 items-center justify-center rounded-full bg-white/30 shadow-xl group-hover:bg-yellow group-focus:bg-yellow group-focus:outline-none"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="h-6 w-6 text-black"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M15 19l-7-7 7-7"
+                  ></path>
+                </svg>
+                <span class="sr-only">Previous</span>
+              </span>
+            </button>
+            <button
+              type="button"
+              class="group absolute right-0 top-0 z-30 flex h-full cursor-pointer items-center justify-center px-4 focus:outline-none"
+              data-carousel-next
+            >
+              <span
+                class="inline-flex h-10 w-10 items-center justify-center rounded-full bg-white/30 shadow-xl group-hover:bg-yellow group-focus:bg-yellow group-focus:outline-none"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="h-6 w-6 text-black"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M9 5l7 7-7 7"
+                  ></path>
+                </svg>
+                <span class="sr-only">Next</span>
+              </span>
+            </button>
           </div>
         </div>
         <div
@@ -330,10 +636,90 @@
             block: openTab === 6,
           }"
         >
-          <div class="grid w-[54rem] grid-cols-3 grid-rows-1 gap-4">
-            <img src="src/assets/IMG_0163.JPG" class="" alt="" />
-            <img src="src/assets/IMG_0163.JPG" class="" alt="" />
-            <img src="src/assets/IMG_0163.JPG" class="" alt="" />
+          <div id="gallery" class="relative w-full" data-carousel="slide">
+            <!-- carousel wrapper -->
+            <div class="relative h-56 overflow-hidden rounded-lg md:h-96">
+              <!-- item01 -->
+              <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                <img
+                  src="src/assets/logo-paper-mockup.jpg"
+                  class="absolute left-1/2 top-1/2 block h-auto max-w-full -translate-x-1/2 -translate-y-1/2"
+                  alt=""
+                />
+              </div>
+              <!-- item02 -->
+              <div
+                class="hidden duration-700 ease-in-out"
+                data-carousel-item="active"
+              >
+                <img
+                  src="src/assets/logo-office-mockup.jpg"
+                  class="absolute left-1/2 top-1/2 block h-auto max-w-full -translate-x-1/2 -translate-y-1/2"
+                  alt=""
+                />
+              </div>
+              <!-- item03 -->
+              <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                <img
+                  src="src/assets/website-laptop-mockup.jpg"
+                  class="absolute left-1/2 top-1/2 block h-auto max-w-full -translate-x-1/2 -translate-y-1/2"
+                  alt=""
+                />
+              </div>
+            </div>
+            <!-- slider controls -->
+            <button
+              type="button"
+              class="group absolute left-0 top-0 z-30 flex h-full cursor-pointer items-center justify-center px-4 focus:outline-none"
+              data-carousel-prev
+            >
+              <span
+                class="inline-flex h-10 w-10 items-center justify-center rounded-full bg-white/30 shadow-xl group-hover:bg-yellow group-focus:bg-yellow group-focus:outline-none"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="h-6 w-6 text-black"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M15 19l-7-7 7-7"
+                  ></path>
+                </svg>
+                <span class="sr-only">Previous</span>
+              </span>
+            </button>
+            <button
+              type="button"
+              class="group absolute right-0 top-0 z-30 flex h-full cursor-pointer items-center justify-center px-4 focus:outline-none"
+              data-carousel-next
+            >
+              <span
+                class="inline-flex h-10 w-10 items-center justify-center rounded-full bg-white/30 shadow-xl group-hover:bg-yellow group-focus:bg-yellow group-focus:outline-none"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="h-6 w-6 text-black"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M9 5l7 7-7 7"
+                  ></path>
+                </svg>
+                <span class="sr-only">Next</span>
+              </span>
+            </button>
           </div>
         </div>
       </div>
@@ -345,10 +731,90 @@
             block: openTab === 1,
           }"
         >
-          <div class="-ml-72 grid w-[54rem] grid-cols-3 grid-rows-1 gap-4">
-            <img src="src/assets/IMG_0163.JPG" class="" alt="" />
-            <img src="src/assets/IMG_0163.JPG" class="" alt="" />
-            <img src="src/assets/IMG_0163.JPG" class="" alt="" />
+          <div id="gallery" class="relative w-full" data-carousel="slide">
+            <!-- carousel wrapper -->
+            <div class="relative h-56 overflow-hidden rounded-lg md:h-96">
+              <!-- item01 -->
+              <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                <img
+                  src="src/assets/logo-paper-mockup.jpg"
+                  class="absolute left-1/2 top-1/2 block h-auto max-w-full -translate-x-1/2 -translate-y-1/2"
+                  alt=""
+                />
+              </div>
+              <!-- item02 -->
+              <div
+                class="hidden duration-700 ease-in-out"
+                data-carousel-item="active"
+              >
+                <img
+                  src="src/assets/logo-office-mockup.jpg"
+                  class="absolute left-1/2 top-1/2 block h-auto max-w-full -translate-x-1/2 -translate-y-1/2"
+                  alt=""
+                />
+              </div>
+              <!-- item03 -->
+              <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                <img
+                  src="src/assets/website-laptop-mockup.jpg"
+                  class="absolute left-1/2 top-1/2 block h-auto max-w-full -translate-x-1/2 -translate-y-1/2"
+                  alt=""
+                />
+              </div>
+            </div>
+            <!-- slider controls -->
+            <button
+              type="button"
+              class="group absolute left-0 top-0 z-30 flex h-full cursor-pointer items-center justify-center px-4 focus:outline-none"
+              data-carousel-prev
+            >
+              <span
+                class="inline-flex h-10 w-10 items-center justify-center rounded-full bg-white/30 shadow-xl group-hover:bg-yellow group-focus:bg-yellow group-focus:outline-none"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="h-6 w-6 text-black"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M15 19l-7-7 7-7"
+                  ></path>
+                </svg>
+                <span class="sr-only">Previous</span>
+              </span>
+            </button>
+            <button
+              type="button"
+              class="group absolute right-0 top-0 z-30 flex h-full cursor-pointer items-center justify-center px-4 focus:outline-none"
+              data-carousel-next
+            >
+              <span
+                class="inline-flex h-10 w-10 items-center justify-center rounded-full bg-white/30 shadow-xl group-hover:bg-yellow group-focus:bg-yellow group-focus:outline-none"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="h-6 w-6 text-black"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M9 5l7 7-7 7"
+                  ></path>
+                </svg>
+                <span class="sr-only">Next</span>
+              </span>
+            </button>
           </div>
         </div>
         <div
@@ -357,10 +823,90 @@
             block: openTab === 2,
           }"
         >
-          <div class="-ml-60 grid w-[54rem] grid-cols-3 grid-rows-1 gap-4">
-            <img src="src/assets/IMG_0163.JPG" class="" alt="" />
-            <img src="src/assets/IMG_0163.JPG" class="" alt="" />
-            <img src="src/assets/IMG_0163.JPG" class="" alt="" />
+          <div id="gallery" class="relative w-full" data-carousel="slide">
+            <!-- carousel wrapper -->
+            <div class="relative h-56 overflow-hidden rounded-lg md:h-96">
+              <!-- item01 -->
+              <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                <img
+                  src="src/assets/logo-paper-mockup.jpg"
+                  class="absolute left-1/2 top-1/2 block h-auto max-w-full -translate-x-1/2 -translate-y-1/2"
+                  alt=""
+                />
+              </div>
+              <!-- item02 -->
+              <div
+                class="hidden duration-700 ease-in-out"
+                data-carousel-item="active"
+              >
+                <img
+                  src="src/assets/logo-office-mockup.jpg"
+                  class="absolute left-1/2 top-1/2 block h-auto max-w-full -translate-x-1/2 -translate-y-1/2"
+                  alt=""
+                />
+              </div>
+              <!-- item03 -->
+              <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                <img
+                  src="src/assets/website-laptop-mockup.jpg"
+                  class="absolute left-1/2 top-1/2 block h-auto max-w-full -translate-x-1/2 -translate-y-1/2"
+                  alt=""
+                />
+              </div>
+            </div>
+            <!-- slider controls -->
+            <button
+              type="button"
+              class="group absolute left-0 top-0 z-30 flex h-full cursor-pointer items-center justify-center px-4 focus:outline-none"
+              data-carousel-prev
+            >
+              <span
+                class="inline-flex h-10 w-10 items-center justify-center rounded-full bg-white/30 shadow-xl group-hover:bg-yellow group-focus:bg-yellow group-focus:outline-none"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="h-6 w-6 text-black"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M15 19l-7-7 7-7"
+                  ></path>
+                </svg>
+                <span class="sr-only">Previous</span>
+              </span>
+            </button>
+            <button
+              type="button"
+              class="group absolute right-0 top-0 z-30 flex h-full cursor-pointer items-center justify-center px-4 focus:outline-none"
+              data-carousel-next
+            >
+              <span
+                class="inline-flex h-10 w-10 items-center justify-center rounded-full bg-white/30 shadow-xl group-hover:bg-yellow group-focus:bg-yellow group-focus:outline-none"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="h-6 w-6 text-black"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M9 5l7 7-7 7"
+                  ></path>
+                </svg>
+                <span class="sr-only">Next</span>
+              </span>
+            </button>
           </div>
         </div>
         <div
@@ -369,10 +915,90 @@
             block: openTab === 3,
           }"
         >
-          <div class="-ml-60 grid w-[54rem] grid-cols-3 grid-rows-1 gap-4">
-            <img src="src/assets/IMG_0163.JPG" class="" alt="" />
-            <img src="src/assets/IMG_0163.JPG" class="" alt="" />
-            <img src="src/assets/IMG_0163.JPG" class="" alt="" />
+          <div id="gallery" class="relative w-full" data-carousel="slide">
+            <!-- carousel wrapper -->
+            <div class="relative h-56 overflow-hidden rounded-lg md:h-96">
+              <!-- item01 -->
+              <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                <img
+                  src="src/assets/logo-paper-mockup.jpg"
+                  class="absolute left-1/2 top-1/2 block h-auto max-w-full -translate-x-1/2 -translate-y-1/2"
+                  alt=""
+                />
+              </div>
+              <!-- item02 -->
+              <div
+                class="hidden duration-700 ease-in-out"
+                data-carousel-item="active"
+              >
+                <img
+                  src="src/assets/logo-office-mockup.jpg"
+                  class="absolute left-1/2 top-1/2 block h-auto max-w-full -translate-x-1/2 -translate-y-1/2"
+                  alt=""
+                />
+              </div>
+              <!-- item03 -->
+              <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                <img
+                  src="src/assets/website-laptop-mockup.jpg"
+                  class="absolute left-1/2 top-1/2 block h-auto max-w-full -translate-x-1/2 -translate-y-1/2"
+                  alt=""
+                />
+              </div>
+            </div>
+            <!-- slider controls -->
+            <button
+              type="button"
+              class="group absolute left-0 top-0 z-30 flex h-full cursor-pointer items-center justify-center px-4 focus:outline-none"
+              data-carousel-prev
+            >
+              <span
+                class="inline-flex h-10 w-10 items-center justify-center rounded-full bg-white/30 shadow-xl group-hover:bg-yellow group-focus:bg-yellow group-focus:outline-none"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="h-6 w-6 text-black"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M15 19l-7-7 7-7"
+                  ></path>
+                </svg>
+                <span class="sr-only">Previous</span>
+              </span>
+            </button>
+            <button
+              type="button"
+              class="group absolute right-0 top-0 z-30 flex h-full cursor-pointer items-center justify-center px-4 focus:outline-none"
+              data-carousel-next
+            >
+              <span
+                class="inline-flex h-10 w-10 items-center justify-center rounded-full bg-white/30 shadow-xl group-hover:bg-yellow group-focus:bg-yellow group-focus:outline-none"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="h-6 w-6 text-black"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M9 5l7 7-7 7"
+                  ></path>
+                </svg>
+                <span class="sr-only">Next</span>
+              </span>
+            </button>
           </div>
         </div>
         <div
@@ -381,10 +1007,90 @@
             block: openTab === 4,
           }"
         >
-          <div class="-ml-60 grid w-[54rem] grid-cols-3 grid-rows-1 gap-4">
-            <img src="src/assets/IMG_0163.JPG" class="" alt="" />
-            <img src="src/assets/IMG_0163.JPG" class="" alt="" />
-            <img src="src/assets/IMG_0163.JPG" class="" alt="" />
+          <div id="gallery" class="relative w-full" data-carousel="slide">
+            <!-- carousel wrapper -->
+            <div class="relative h-56 overflow-hidden rounded-lg md:h-96">
+              <!-- item01 -->
+              <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                <img
+                  src="src/assets/logo-paper-mockup.jpg"
+                  class="absolute left-1/2 top-1/2 block h-auto max-w-full -translate-x-1/2 -translate-y-1/2"
+                  alt=""
+                />
+              </div>
+              <!-- item02 -->
+              <div
+                class="hidden duration-700 ease-in-out"
+                data-carousel-item="active"
+              >
+                <img
+                  src="src/assets/logo-office-mockup.jpg"
+                  class="absolute left-1/2 top-1/2 block h-auto max-w-full -translate-x-1/2 -translate-y-1/2"
+                  alt=""
+                />
+              </div>
+              <!-- item03 -->
+              <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                <img
+                  src="src/assets/website-laptop-mockup.jpg"
+                  class="absolute left-1/2 top-1/2 block h-auto max-w-full -translate-x-1/2 -translate-y-1/2"
+                  alt=""
+                />
+              </div>
+            </div>
+            <!-- slider controls -->
+            <button
+              type="button"
+              class="group absolute left-0 top-0 z-30 flex h-full cursor-pointer items-center justify-center px-4 focus:outline-none"
+              data-carousel-prev
+            >
+              <span
+                class="inline-flex h-10 w-10 items-center justify-center rounded-full bg-white/30 shadow-xl group-hover:bg-yellow group-focus:bg-yellow group-focus:outline-none"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="h-6 w-6 text-black"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M15 19l-7-7 7-7"
+                  ></path>
+                </svg>
+                <span class="sr-only">Previous</span>
+              </span>
+            </button>
+            <button
+              type="button"
+              class="group absolute right-0 top-0 z-30 flex h-full cursor-pointer items-center justify-center px-4 focus:outline-none"
+              data-carousel-next
+            >
+              <span
+                class="inline-flex h-10 w-10 items-center justify-center rounded-full bg-white/30 shadow-xl group-hover:bg-yellow group-focus:bg-yellow group-focus:outline-none"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="h-6 w-6 text-black"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M9 5l7 7-7 7"
+                  ></path>
+                </svg>
+                <span class="sr-only">Next</span>
+              </span>
+            </button>
           </div>
         </div>
         <div
@@ -393,10 +1099,90 @@
             block: openTab === 5,
           }"
         >
-          <div class="-ml-60 grid w-[54rem] grid-cols-3 grid-rows-1 gap-4">
-            <img src="src/assets/IMG_0163.JPG" class="" alt="" />
-            <img src="src/assets/IMG_0163.JPG" class="" alt="" />
-            <img src="src/assets/IMG_0163.JPG" class="" alt="" />
+          <div id="gallery" class="relative w-full" data-carousel="slide">
+            <!-- carousel wrapper -->
+            <div class="relative h-56 overflow-hidden rounded-lg md:h-96">
+              <!-- item01 -->
+              <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                <img
+                  src="src/assets/logo-paper-mockup.jpg"
+                  class="absolute left-1/2 top-1/2 block h-auto max-w-full -translate-x-1/2 -translate-y-1/2"
+                  alt=""
+                />
+              </div>
+              <!-- item02 -->
+              <div
+                class="hidden duration-700 ease-in-out"
+                data-carousel-item="active"
+              >
+                <img
+                  src="src/assets/logo-office-mockup.jpg"
+                  class="absolute left-1/2 top-1/2 block h-auto max-w-full -translate-x-1/2 -translate-y-1/2"
+                  alt=""
+                />
+              </div>
+              <!-- item03 -->
+              <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                <img
+                  src="src/assets/website-laptop-mockup.jpg"
+                  class="absolute left-1/2 top-1/2 block h-auto max-w-full -translate-x-1/2 -translate-y-1/2"
+                  alt=""
+                />
+              </div>
+            </div>
+            <!-- slider controls -->
+            <button
+              type="button"
+              class="group absolute left-0 top-0 z-30 flex h-full cursor-pointer items-center justify-center px-4 focus:outline-none"
+              data-carousel-prev
+            >
+              <span
+                class="inline-flex h-10 w-10 items-center justify-center rounded-full bg-white/30 shadow-xl group-hover:bg-yellow group-focus:bg-yellow group-focus:outline-none"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="h-6 w-6 text-black"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M15 19l-7-7 7-7"
+                  ></path>
+                </svg>
+                <span class="sr-only">Previous</span>
+              </span>
+            </button>
+            <button
+              type="button"
+              class="group absolute right-0 top-0 z-30 flex h-full cursor-pointer items-center justify-center px-4 focus:outline-none"
+              data-carousel-next
+            >
+              <span
+                class="inline-flex h-10 w-10 items-center justify-center rounded-full bg-white/30 shadow-xl group-hover:bg-yellow group-focus:bg-yellow group-focus:outline-none"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="h-6 w-6 text-black"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M9 5l7 7-7 7"
+                  ></path>
+                </svg>
+                <span class="sr-only">Next</span>
+              </span>
+            </button>
           </div>
         </div>
         <div
@@ -405,10 +1191,90 @@
             block: openTab === 6,
           }"
         >
-          <div class="-ml-60 grid w-[54rem] grid-cols-3 grid-rows-1 gap-4">
-            <img src="src/assets/IMG_0163.JPG" class="" alt="" />
-            <img src="src/assets/IMG_0163.JPG" class="" alt="" />
-            <img src="src/assets/IMG_0163.JPG" class="" alt="" />
+          <div id="gallery" class="relative w-full" data-carousel="slide">
+            <!-- carousel wrapper -->
+            <div class="relative h-56 overflow-hidden rounded-lg md:h-96">
+              <!-- item01 -->
+              <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                <img
+                  src="src/assets/logo-paper-mockup.jpg"
+                  class="absolute left-1/2 top-1/2 block h-auto max-w-full -translate-x-1/2 -translate-y-1/2"
+                  alt=""
+                />
+              </div>
+              <!-- item02 -->
+              <div
+                class="hidden duration-700 ease-in-out"
+                data-carousel-item="active"
+              >
+                <img
+                  src="src/assets/logo-office-mockup.jpg"
+                  class="absolute left-1/2 top-1/2 block h-auto max-w-full -translate-x-1/2 -translate-y-1/2"
+                  alt=""
+                />
+              </div>
+              <!-- item03 -->
+              <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                <img
+                  src="src/assets/website-laptop-mockup.jpg"
+                  class="absolute left-1/2 top-1/2 block h-auto max-w-full -translate-x-1/2 -translate-y-1/2"
+                  alt=""
+                />
+              </div>
+            </div>
+            <!-- slider controls -->
+            <button
+              type="button"
+              class="group absolute left-0 top-0 z-30 flex h-full cursor-pointer items-center justify-center px-4 focus:outline-none"
+              data-carousel-prev
+            >
+              <span
+                class="inline-flex h-10 w-10 items-center justify-center rounded-full bg-white/30 shadow-xl group-hover:bg-yellow group-focus:bg-yellow group-focus:outline-none"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="h-6 w-6 text-black"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M15 19l-7-7 7-7"
+                  ></path>
+                </svg>
+                <span class="sr-only">Previous</span>
+              </span>
+            </button>
+            <button
+              type="button"
+              class="group absolute right-0 top-0 z-30 flex h-full cursor-pointer items-center justify-center px-4 focus:outline-none"
+              data-carousel-next
+            >
+              <span
+                class="inline-flex h-10 w-10 items-center justify-center rounded-full bg-white/30 shadow-xl group-hover:bg-yellow group-focus:bg-yellow group-focus:outline-none"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="h-6 w-6 text-black"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M9 5l7 7-7 7"
+                  ></path>
+                </svg>
+                <span class="sr-only">Next</span>
+              </span>
+            </button>
           </div>
         </div>
         <div class="flex justify-between">
