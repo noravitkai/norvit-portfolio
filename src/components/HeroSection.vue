@@ -51,10 +51,14 @@
           <p
             class="mb-8 mt-8 text-base font-normal text-black sm:px-16 lg:text-xl xl:px-48"
           >
-            My name is Nora Vitkai. I’m a dedicated creative developer with a
-            passion for innovation and quality. With a zeal for originality and
-            commitment to excellence, I create digital experiences that bring
-            visions to life.
+            My name is<span
+              class="underline font-semibold decoration-yellow/40 decoration-4 underline-offset-0"
+            >
+              Nora Vitkai.</span
+            >
+            I’m a dedicated creative developer with a passion for innovation and
+            quality. With a zeal for originality and commitment to excellence, I
+            create digital experiences that bring visions to life.
           </p>
           <!-- CTA buttons -->
           <div class="mb-8 flex flex-row items-center justify-center gap-x-6">
