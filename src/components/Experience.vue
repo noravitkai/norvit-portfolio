@@ -12,13 +12,13 @@
         </div>
         <div class="flex flex-col gap-6">
           <!-- description text -->
-          <h2 class="text-4xl font-semibold">Lorem ipsum</h2>
+          <h2 class="text-4xl font-semibold">Project showcase</h2>
           <p class="text-base">
-            Lorem ipsum lorem ipsum lorem lorem ipsum lorem ipsum bla bla bla
-            lorem ipsum lorem lorem ipsum lorem ipsum bla bla bla bla bla bla
-            lorem ipsum lorem lorem ipsum lorem ipsum bla bla bla bla bla bla
-            bla bla bla bla lbangvghvjz lorem ipsum lorem lorem ipsum lorem
-            ipsum bla bla bla…
+            My experience spans across many digital media fields. During my
+            studies, I have had the privilege of working on a variety of
+            real-life projects. Through these, I have gained expertise in
+            working effectively both individually and in a team, paying close
+            attention to details, and adhering to strict timelines.
           </p>
           <!-- tabs -->
           <div class="flex flex-wrap">

@@ -15,9 +15,10 @@
           <div>
             <h2 class="text-4xl font-semibold text-black">Get in touch</h2>
             <p class="mb-6 mt-6 text-base text-black">
-              Lorem ipsum lorem ipsum lorem lorem ipsum lorem ipsum bla bla bla
-              lorem ipsum lorem lorem ipsum lorem ipsum bla bla bla bla bla bla
-              lorem ipsum
+              I would love to hear from you if you have a project in mind.
+              Please feel free to contact me at one of my contacts below or send
+              me a message through the contact form. Let's work together to
+              bring your vision to life!
             </p>
             <dl class="space-y-4 text-base text-black">
               <div class="flex gap-x-4">

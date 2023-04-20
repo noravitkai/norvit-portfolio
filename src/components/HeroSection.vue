@@ -52,7 +52,7 @@
             class="mb-8 mt-8 text-base font-normal text-black sm:px-16 lg:text-xl xl:px-48"
           >
             My name is<span
-              class="underline font-semibold decoration-yellow/40 decoration-4 underline-offset-0"
+              class="font-semibold underline decoration-yellow/40 decoration-4 underline-offset-0"
             >
               Nora Vitkai.</span
             >

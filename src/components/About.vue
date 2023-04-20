@@ -17,13 +17,17 @@
         <div class="order-1 flex sm:order-2">
           <div class="flex flex-col gap-6">
             <!-- description text -->
-            <h2 class="text-4xl font-semibold">Lorem ipsum</h2>
+            <h2 class="text-4xl font-semibold">A Brief Introduction</h2>
             <p class="text-base">
-              Lorem ipsum lorem ipsum lorem lorem ipsum lorem ipsum bla bla bla
-              lorem ipsum lorem lorem ipsum lorem ipsum bla bla bla bla bla bla
-              lorem ipsum lorem lorem ipsum lorem ipsum bla bla bla bla bla bla
-              bla bla bla bla lbangvghvjz lorem ipsum lorem lorem ipsum lorem
-              ipsum bla bla bla…
+              I am a multimedia designer with a love for digital media
+              production and finding creative solutions. My university
+              background in Language and Literature Studies, along with
+              Philosophy, has given me a unique perspective on the ways
+              communication can be used to make a powerful impact.<br /><br />With
+              my experience in content creation, whether it's through UI/UX
+              design or social media campaigns, I strive for valuable and
+              precise work. When I am not working, I enjoy hiking, reading, and
+              experimenting with recipes in the kitchen.
             </p>
             <!-- contact button -->
             <div class="flex flex-row">
@@ -92,13 +96,13 @@
             </div>
             <div class="flex flex-col gap-6">
               <!-- description text -->
-              <h2 class="text-4xl font-semibold">Lorem ipsum</h2>
+              <h2 class="text-4xl font-semibold">Proficiencies</h2>
               <p class="text-base">
-                Lorem ipsum lorem ipsum lorem lorem ipsum lorem ipsum bla bla
-                bla lorem ipsum lorem lorem ipsum lorem ipsum bla bla bla bla
-                bla bla lorem ipsum lorem lorem ipsum lorem ipsum bla bla bla
-                bla bla bla bla bla bla bla lbangvghvjz lorem ipsum lorem lorem
-                ipsum lorem ipsum bla bla bla…
+                I possess a range of competencies that enable me to create
+                visually pleasing, yet informative content. With a keen eye for
+                details as well as my diligent and conscientious work ethic, I
+                am always open to adapting to new cultural environments and
+                committed to producing high-quality work.
               </p>
               <!-- tabs -->
               <div class="flex flex-wrap">
@@ -154,13 +158,13 @@
             </div>
             <div class="flex flex-col gap-6">
               <!-- description text -->
-              <h2 class="text-4xl font-semibold">Lorem ipsum</h2>
+              <h2 class="text-4xl font-semibold">Proficiencies</h2>
               <p class="text-base">
-                Lorem ipsum lorem ipsum lorem lorem ipsum lorem ipsum bla bla
-                bla lorem ipsum lorem lorem ipsum lorem ipsum bla bla bla bla
-                bla bla lorem ipsum lorem lorem ipsum lorem ipsum bla bla bla
-                bla bla bla bla bla bla bla lbangvghvjz lorem ipsum lorem lorem
-                ipsum lorem ipsum bla bla bla…
+                I possess a range of competencies that enable me to create
+                visually pleasing, yet informative content. With a keen eye for
+                details as well as my diligent and conscientious work ethic, I
+                am always open to adapting to new cultural environments and
+                committed to producing high-quality work.
               </p>
               <!-- tabs -->
               <div class="flex flex-wrap">
