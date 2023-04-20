@@ -26,8 +26,8 @@
               communication can be used to make a powerful impact.<br /><br />With
               my experience in content creation, whether it's through UI/UX
               design or social media campaigns, I strive for valuable and
-              precise work. When I am not working, I enjoy hiking, reading, and
-              experimenting with recipes in the kitchen.
+              precise work. When I am not working, you can find me hiking or
+              curled up with a good book.
             </p>
             <!-- contact button -->
             <div class="flex flex-row">
