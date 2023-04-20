@@ -19,30 +19,6 @@
             alt="..."
           />
         </div>
-        <!-- Item 3 -->
-        <div class="hidden duration-700 ease-in-out" data-carousel-item>
-          <img
-            src="../assets/logo-office-mockup.jpg"
-            class="absolute left-1/2 top-1/2 block w-full -translate-x-1/2 -translate-y-1/2"
-            alt="..."
-          />
-        </div>
-        <!-- Item 4 -->
-        <div class="hidden duration-700 ease-in-out" data-carousel-item>
-          <img
-            src="../assets/logo-office-mockup.jpg"
-            class="absolute left-1/2 top-1/2 block w-full -translate-x-1/2 -translate-y-1/2"
-            alt="..."
-          />
-        </div>
-        <!-- Item 5 -->
-        <div class="hidden duration-700 ease-in-out" data-carousel-item>
-          <img
-            src="../assets/logo-office-mockup.jpg"
-            class="absolute left-1/2 top-1/2 block w-full -translate-x-1/2 -translate-y-1/2"
-            alt="..."
-          />
-        </div>
       </div>
       <!-- Slider indicators -->
       <div
@@ -62,27 +38,6 @@
           aria-label="Slide 2"
           data-carousel-slide-to="1"
         ></button>
-        <button
-          type="button"
-          class="h-3 w-3 rounded-full"
-          aria-current="false"
-          aria-label="Slide 3"
-          data-carousel-slide-to="2"
-        ></button>
-        <button
-          type="button"
-          class="h-3 w-3 rounded-full"
-          aria-current="false"
-          aria-label="Slide 4"
-          data-carousel-slide-to="3"
-        ></button>
-        <button
-          type="button"
-          class="h-3 w-3 rounded-full"
-          aria-current="false"
-          aria-label="Slide 5"
-          data-carousel-slide-to="4"
-        ></button>
       </div>
       <!-- Slider controls -->
       <button
@@ -91,11 +46,11 @@
         data-carousel-prev
       >
         <span
-          class="dark:bg-gray-800/30 dark:group-hover:bg-gray-800/60 dark:group-focus:ring-gray-800/70 inline-flex h-8 w-8 items-center justify-center rounded-full bg-white/30 group-hover:bg-white/50 group-focus:outline-none group-focus:ring-4 group-focus:ring-white sm:h-10 sm:w-10"
+          class="inline-flex h-8 w-8 items-center justify-center rounded-full bg-white/30 group-hover:bg-white/50 group-focus:outline-none group-focus:ring-4 group-focus:ring-white sm:h-10 sm:w-10"
         >
           <svg
             aria-hidden="true"
-            class="dark:text-gray-800 h-5 w-5 text-white sm:h-6 sm:w-6"
+            class="h-5 w-5 text-white sm:h-6 sm:w-6"
             fill="none"
             stroke="currentColor"
             viewBox="0 0 24 24"
@@ -117,11 +72,11 @@
         data-carousel-next
       >
         <span
-          class="dark:bg-gray-800/30 dark:group-hover:bg-gray-800/60 dark:group-focus:ring-gray-800/70 inline-flex h-8 w-8 items-center justify-center rounded-full bg-white/30 group-hover:bg-white/50 group-focus:outline-none group-focus:ring-4 group-focus:ring-white sm:h-10 sm:w-10"
+          class="inline-flex h-8 w-8 items-center justify-center rounded-full bg-white/30 group-hover:bg-white/50 group-focus:outline-none group-focus:ring-4 group-focus:ring-white sm:h-10 sm:w-10"
         >
           <svg
             aria-hidden="true"
-            class="dark:text-gray-800 h-5 w-5 text-white sm:h-6 sm:w-6"
+            class="h-5 w-5 text-white sm:h-6 sm:w-6"
             fill="none"
             stroke="currentColor"
             viewBox="0 0 24 24"

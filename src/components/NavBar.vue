@@ -1,5 +1,5 @@
 <template>
-  <header id="navbar" class="bg-bg02">
+  <header id="navbar" class="sticky top-0 z-40 bg-bg02">
     <nav
       class="mx-auto flex max-w-7xl items-center justify-between p-6"
       aria-label="Global"
