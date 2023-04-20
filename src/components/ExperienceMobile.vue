@@ -25,8 +25,10 @@
       </div>
       <!-- categories -->
       <!-- web design part -->
-      <div class="mt-6">
-        <h3 class="font-semibold text-black">Web design</h3>
+      <div class="mt-8">
+        <h3 class="text-4xl font-semibold uppercase text-blue/40">
+          Web design
+        </h3>
         <div class="mt-6 flex">
           <div class="flex flex-col gap-6">
             <!-- description text -->
@@ -52,8 +54,10 @@
         </div>
       </div>
       <!-- logo design part -->
-      <div class="mt-6">
-        <h3 class="font-semibold text-black">Logo design</h3>
+      <div class="mt-8">
+        <h3 class="text-4xl font-semibold uppercase text-blue/40">
+          Logo design
+        </h3>
         <!-- project 1 -->
         <div class="mt-6 flex">
           <!-- section marker -->
@@ -104,8 +108,10 @@
         </div>
       </div>
       <!-- page layout design part -->
-      <div class="mt-6">
-        <h3 class="font-semibold text-black">Page layout design</h3>
+      <div class="mt-8">
+        <h3 class="text-4xl font-semibold uppercase text-blue/40">
+          Page layout design
+        </h3>
         <!-- project 1 -->
         <div class="mt-6 flex">
           <!-- section marker -->
@@ -156,8 +162,10 @@
         </div>
       </div>
       <!-- video editing part -->
-      <div class="mt-6">
-        <h3 class="font-semibold text-black">Video editing</h3>
+      <div class="mt-8">
+        <h3 class="text-4xl font-semibold uppercase text-blue/40">
+          Video editing
+        </h3>
         <div class="mt-6 flex">
           <!-- section marker -->
           <div class="mt-10 flex flex-col items-center lg:mt-4">
@@ -183,8 +191,10 @@
         </div>
       </div>
       <!-- some management part -->
-      <div class="mt-6">
-        <h3 class="font-semibold text-black">SoMe management</h3>
+      <div class="mt-8">
+        <h3 class="text-4xl font-semibold uppercase text-blue/40">
+          SoMe management
+        </h3>
         <!-- project 1 -->
         <div class="mt-6 flex">
           <div class="flex flex-col gap-6">
@@ -235,8 +245,10 @@
         </div>
       </div>
       <!-- copywriting part -->
-      <div class="mt-6">
-        <h3 class="font-semibold text-black">Copywriting</h3>
+      <div class="mt-8">
+        <h3 class="text-4xl font-semibold uppercase text-blue/40">
+          Copywriting
+        </h3>
         <div class="mt-6 flex">
           <div class="flex flex-col gap-6">
             <!-- description text -->

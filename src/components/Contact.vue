@@ -15,9 +15,9 @@
           <div>
             <h2 class="text-4xl font-semibold text-black">Get in touch</h2>
             <p class="mb-6 mt-6 text-base text-black">
-              Proin volutpat consequat porttitor cras nullam gravida at. Orci
-              molestie a eu arcu. Sed ut tincidunt integer elementum id sem.
-              Arcu sed malesuada et magna.
+              Lorem ipsum lorem ipsum lorem lorem ipsum lorem ipsum bla bla bla
+              lorem ipsum lorem lorem ipsum lorem ipsum bla bla bla bla bla bla
+              lorem ipsum
             </p>
             <dl class="space-y-4 text-base text-black">
               <div class="flex gap-x-4">

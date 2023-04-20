@@ -121,8 +121,8 @@
                 block: openTab === 1,
               }"
             >
-              <h3>Project name</h3>
-              <p>
+              <h3 class="text-4xl font-semibold">Project name</h3>
+              <p class="mt-6">
                 Lorem ipsum lorem ipsum lorem lorem ipsum lorem ipsum bla bla
                 bla lorem ipsum lorem lorem ipsum lorem ipsum bla bla bla bla
                 bla bla lorem ipsum lorem lorem ipsum lorem ipsum bla bla bla
@@ -136,8 +136,8 @@
                 block: openTab === 2,
               }"
             >
-              <h3>Project name</h3>
-              <p>
+              <h3 class="text-4xl font-semibold">Project name</h3>
+              <p class="mt-6">
                 Lorem ipsum lorem ipsum lorem lorem ipsum lorem ipsum bla bla
                 bla lorem ipsum lorem lorem ipsum lorem ipsum bla bla bla bla
                 bla bla lorem ipsum lorem lorem ipsum lorem ipsum bla bla bla
@@ -151,8 +151,8 @@
                 block: openTab === 3,
               }"
             >
-              <h3>Project name</h3>
-              <p>
+              <h3 class="text-4xl font-semibold">Project name</h3>
+              <p class="mt-6">
                 Lorem ipsum lorem ipsum lorem lorem ipsum lorem ipsum bla bla
                 bla lorem ipsum lorem lorem ipsum lorem ipsum bla bla bla bla
                 bla bla lorem ipsum lorem lorem ipsum lorem ipsum bla bla bla
@@ -166,8 +166,8 @@
                 block: openTab === 4,
               }"
             >
-              <h3>Project name</h3>
-              <p>
+              <h3 class="text-4xl font-semibold">Project name</h3>
+              <p class="mt-6">
                 Lorem ipsum lorem ipsum lorem lorem ipsum lorem ipsum bla bla
                 bla lorem ipsum lorem lorem ipsum lorem ipsum bla bla bla bla
                 bla bla lorem ipsum lorem lorem ipsum lorem ipsum bla bla bla
@@ -181,8 +181,8 @@
                 block: openTab === 5,
               }"
             >
-              <h3>Project name</h3>
-              <p>
+              <h3 class="text-4xl font-semibold">Project name</h3>
+              <p class="mt-6">
                 Lorem ipsum lorem ipsum lorem lorem ipsum lorem ipsum bla bla
                 bla lorem ipsum lorem lorem ipsum lorem ipsum bla bla bla bla
                 bla bla lorem ipsum lorem lorem ipsum lorem ipsum bla bla bla
@@ -196,8 +196,8 @@
                 block: openTab === 6,
               }"
             >
-              <h3>Project name</h3>
-              <p>
+              <h3 class="text-4xl font-semibold">Project name</h3>
+              <p class="mt-6">
                 Lorem ipsum lorem ipsum lorem lorem ipsum lorem ipsum bla bla
                 bla lorem ipsum lorem lorem ipsum lorem ipsum bla bla bla bla
                 bla bla lorem ipsum lorem lorem ipsum lorem ipsum bla bla bla
@@ -314,8 +314,8 @@
                 block: openTab === 1,
               }"
             >
-              <h3 class="text-3xl font-bold">Project name</h3>
-              <p>
+              <h3 class="text-4xl font-semibold">Project name</h3>
+              <p class="mt-6">
                 Lorem ipsum lorem ipsum lorem lorem ipsum lorem ipsum bla bla
                 bla lorem ipsum lorem lorem ipsum lorem ipsum bla bla bla bla
                 bla bla lorem ipsum lorem lorem ipsum lorem ipsum bla bla bla
@@ -329,8 +329,8 @@
                 block: openTab === 2,
               }"
             >
-              <h3 class="text-3xl font-bold">Project name</h3>
-              <p>
+              <h3 class="text-4xl font-semibold">Project name</h3>
+              <p class="mt-6">
                 Lorem ipsum lorem ipsum lorem lorem ipsum lorem ipsum bla bla
                 bla lorem ipsum lorem lorem ipsum lorem ipsum bla bla bla bla
                 bla bla lorem ipsum lorem lorem ipsum lorem ipsum bla bla bla
@@ -344,8 +344,8 @@
                 block: openTab === 3,
               }"
             >
-              <h3 class="text-3xl font-bold">Project name</h3>
-              <p>
+              <h3 class="text-4xl font-semibold">Project name</h3>
+              <p class="mt-6">
                 Lorem ipsum lorem ipsum lorem lorem ipsum lorem ipsum bla bla
                 bla lorem ipsum lorem lorem ipsum lorem ipsum bla bla bla bla
                 bla bla lorem ipsum lorem lorem ipsum lorem ipsum bla bla bla
@@ -359,8 +359,8 @@
                 block: openTab === 4,
               }"
             >
-              <h3 class="text-3xl font-bold">Project name</h3>
-              <p>
+              <h3 class="text-4xl font-semibold">Project name</h3>
+              <p class="mt-6">
                 Lorem ipsum lorem ipsum lorem lorem ipsum lorem ipsum bla bla
                 bla lorem ipsum lorem lorem ipsum lorem ipsum bla bla bla bla
                 bla bla lorem ipsum lorem lorem ipsum lorem ipsum bla bla bla
@@ -374,8 +374,8 @@
                 block: openTab === 5,
               }"
             >
-              <h3 class="text-3xl font-bold">Project name</h3>
-              <p>
+              <h3 class="text-4xl font-semibold">Project name</h3>
+              <p class="mt-6">
                 Lorem ipsum lorem ipsum lorem lorem ipsum lorem ipsum bla bla
                 bla lorem ipsum lorem lorem ipsum lorem ipsum bla bla bla bla
                 bla bla lorem ipsum lorem lorem ipsum lorem ipsum bla bla bla
@@ -389,8 +389,8 @@
                 block: openTab === 6,
               }"
             >
-              <h3 class="text-3xl font-bold">Project name</h3>
-              <p>
+              <h3 class="text-4xl font-semibold">Project name</h3>
+              <p class="mt-6">
                 Lorem ipsum lorem ipsum lorem lorem ipsum lorem ipsum bla bla
                 bla lorem ipsum lorem lorem ipsum lorem ipsum bla bla bla bla
                 bla bla lorem ipsum lorem lorem ipsum lorem ipsum bla bla bla

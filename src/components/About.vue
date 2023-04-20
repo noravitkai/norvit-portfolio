@@ -205,13 +205,15 @@
                     }"
                   >
                     <p>
-                      Collaboratively administrate empowered markets via
-                      plug-and-play networks. Dynamically procrastinate B2C
-                      users after installed base benefits.
+                      Lorem ipsum lorem ipsum lorem lorem ipsum lorem ipsum bla
+                      bla bla lorem ipsum lorem lorem ipsum lorem ipsum bla bla
+                      bla bla bla bla lorem ipsum lorem lorem ipsum lorem ipsum
+                      bla bla bla bla bla bla bla bla bla bla lbangvghvjz lorem
+                      ipsum lorem lorem ipsum lorem ipsum bla bla bla…
                       <br />
                       <br />
-                      Dramatically visualize customer directed convergence
-                      without revolutionary ROI.
+                      Lorem ipsum lorem ipsum lorem lorem ipsum lorem ipsum bla
+                      bla bla lorem ipsum
                     </p>
                   </div>
                   <!-- skills content -->
