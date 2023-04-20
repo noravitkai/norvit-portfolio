@@ -235,18 +235,12 @@
   </section>
 </template>
 
-<script>
-export default {
-  name: "pink-tabs",
-  data() {
-    return {
-      openTab: 1,
-    };
-  },
-  methods: {
-    toggleTabs: function (tabNumber) {
-      this.openTab = tabNumber;
-    },
-  },
-};
+<script setup>
+import { ref } from "vue";
+
+let openTab = ref(1);
+
+function toggleTabs(tabNumber) {
+  openTab.value = tabNumber;
+}
 </script>

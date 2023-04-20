@@ -15,6 +15,5 @@ import ExperienceMobile from "./components/ExperienceMobile.vue";
   <Experience />
   <ExperienceMobile />
   <Contact />
-
   <Footer />
 </template>

@@ -277,7 +277,7 @@
   </section>
 </template>
 
-<script>
+<script setup>
 import WebSlider from "./WebSlider.vue";
 import LogoSlider from "./LogoSlider.vue";
 import LogoSliderTwo from "./LogoSliderTwo.vue";
@@ -287,18 +287,4 @@ import VideoSlider from "./VideoSlider.vue";
 import SomeSlider from "./SomeSlider.vue";
 import SomeSliderTwo from "./SomeSliderTwo.vue";
 import CopywritingSlider from "./CopywritingSlider.vue";
-
-export default {
-  components: {
-    WebSlider,
-    LogoSlider,
-    LogoSliderTwo,
-    PageSlider,
-    PageSliderTwo,
-    VideoSlider,
-    SomeSlider,
-    SomeSliderTwo,
-    CopywritingSlider,
-  },
-};
 </script>

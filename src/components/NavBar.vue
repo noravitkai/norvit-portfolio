@@ -1,5 +1,5 @@
 <template>
-  <header id="navbar" class="sticky top-0 z-40 bg-bg02">
+  <header id="navbar" class="bg-bg02">
     <nav
       class="mx-auto flex max-w-7xl items-center justify-between p-6"
       aria-label="Global"
@@ -71,21 +71,25 @@
           <div class="-my-6 divide-y divide-black/10">
             <div class="space-y-1 py-6">
               <a
+                @click="mobileMenuOpen = false"
                 href="#home"
                 class="-mx-3 block rounded-lg px-3 py-2 text-sm font-semibold leading-7 text-black hover:text-yellow"
                 >Home</a
               >
               <a
+                @click="mobileMenuOpen = false"
                 href="#about"
                 class="-mx-3 block rounded-lg px-3 py-2 text-sm font-semibold leading-7 text-black hover:text-yellow"
                 >About</a
               >
               <a
+                @click="mobileMenuOpen = false"
                 href="#experience"
                 class="-mx-3 block rounded-lg px-3 py-2 text-sm font-semibold leading-7 text-black hover:text-yellow"
                 >Experience</a
               >
               <a
+                @click="mobileMenuOpen = false"
                 href="#contact"
                 class="-mx-3 block rounded-lg px-3 py-2 text-sm font-semibold leading-7 text-black hover:text-yellow"
                 >Contact</a

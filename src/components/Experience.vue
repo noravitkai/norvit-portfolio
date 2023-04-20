@@ -411,7 +411,7 @@
   </section>
 </template>
 
-<script>
+<script setup>
 import WebSlider from "./WebSlider.vue";
 import LogoSlider from "./LogoSlider.vue";
 import PageSlider from "./PageSlider.vue";
@@ -425,31 +425,11 @@ import VideoSliderTwo from "./VideoSliderTwo.vue";
 import SomeSliderTwo from "./SomeSliderTwo.vue";
 import CopywritingSliderTwo from "./CopywritingSliderTwo.vue";
 
-export default {
-  name: "pink-tabs",
-  data() {
-    return {
-      openTab: 1,
-    };
-  },
-  methods: {
-    toggleTabs: function (tabNumber) {
-      this.openTab = tabNumber;
-    },
-  },
-  components: {
-    WebSlider,
-    LogoSlider,
-    PageSlider,
-    VideoSlider,
-    SomeSlider,
-    CopywritingSlider,
-    WebSliderTwo,
-    LogoSliderTwo,
-    PageSliderTwo,
-    VideoSliderTwo,
-    SomeSliderTwo,
-    CopywritingSliderTwo,
-  },
-};
+import { ref } from "vue";
+
+let openTab = ref(1);
+
+function toggleTabs(tabNumber) {
+  openTab.value = tabNumber;
+}
 </script>
