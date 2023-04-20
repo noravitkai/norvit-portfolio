@@ -50,35 +50,35 @@
       >
         <button
           type="button"
-          class="h-3 w-3 rounded-full bg-white/30"
+          class="h-3 w-3 rounded-full bg-white/30 hover:bg-yellow/50 focus:bg-yellow"
           aria-current="true"
           aria-label="Slide 1"
           data-carousel-slide-to="0"
         ></button>
         <button
           type="button"
-          class="h-3 w-3 rounded-full bg-white/30"
+          class="h-3 w-3 rounded-full bg-white/30 hover:bg-yellow/50 focus:bg-yellow"
           aria-current="false"
           aria-label="Slide 2"
           data-carousel-slide-to="1"
         ></button>
         <button
           type="button"
-          class="h-3 w-3 rounded-full bg-white/30"
+          class="h-3 w-3 rounded-full bg-white/30 hover:bg-yellow/50 focus:bg-yellow"
           aria-current="false"
           aria-label="Slide 3"
           data-carousel-slide-to="2"
         ></button>
         <button
           type="button"
-          class="h-3 w-3 rounded-full bg-white/30"
+          class="h-3 w-3 rounded-full bg-white/30 hover:bg-yellow/50 focus:bg-yellow"
           aria-current="false"
           aria-label="Slide 4"
           data-carousel-slide-to="3"
         ></button>
         <button
           type="button"
-          class="h-3 w-3 rounded-full bg-white/30"
+          class="h-3 w-3 rounded-full bg-white/30 hover:bg-yellow/50 focus:bg-yellow"
           aria-current="false"
           aria-label="Slide 5"
           data-carousel-slide-to="4"
