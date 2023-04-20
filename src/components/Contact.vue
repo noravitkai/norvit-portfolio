@@ -70,7 +70,10 @@
           </div>
         </div>
       </div>
-      <form action="#" method="POST" class="">
+      <form
+        action="https://getform.io/f/c3c9f055-4b1e-43cd-a5c2-f89142513549"
+        method="POST"
+      >
         <div
           class="mx-auto max-w-xl rounded-lg bg-white p-4 lg:mr-0 lg:max-w-lg"
         >
