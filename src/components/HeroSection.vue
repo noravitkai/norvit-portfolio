@@ -7,7 +7,7 @@
           <ul class="custom-line-icons flex flex-col items-center gap-y-1">
             <li class="duration-150 ease-in hover:translate-x-2">
               <a
-                href="mailto:vitkai.nora@outlook.hu"
+                href="mailto:nora.vitkai@outlook.com"
                 target="_blank"
                 rel="noreferrer"
               >
