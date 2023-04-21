@@ -69,7 +69,7 @@
               Get to know me
             </a>
             <a
-              href="https://firebasestorage.googleapis.com/v0/b/norvit-portfolio.appspot.com/o/norvit-cv-for-website.pdf?alt=media&token=c74c4315-2351-41de-9274-55a8c86ab530"
+              href="https://firebasestorage.googleapis.com/v0/b/norvit-portfolio.appspot.com/o/Nora%20Vitkai%20CV.pdf?alt=media&token=9ee79c8a-a73c-4ff5-b785-9956cfcc1ae8"
               target="_blank"
               class="flex items-center gap-1 text-sm font-semibold leading-6 text-black hover:text-yellow"
             >
