@@ -1,5 +1,5 @@
 <template>
-  <header id="navbar" class="bg-bg02">
+  <header id="navbar" class="sticky top-0 z-40 bg-bg02">
     <nav
       class="mx-auto flex max-w-7xl items-center justify-between p-6"
       aria-label="Global"
@@ -51,7 +51,7 @@
     >
       <div class="fixed inset-0 z-10" />
       <DialogPanel
-        class="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-bg02 p-6 sm:max-w-sm sm:ring-1 sm:ring-black/10"
+        class="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-bg02 p-6 sm:max-w-sm sm:ring-1 sm:ring-black/10"
       >
         <div class="flex items-center justify-between">
           <a href="#" class="-m-1.5 p-1.5">
