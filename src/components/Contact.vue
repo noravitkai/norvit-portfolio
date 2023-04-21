@@ -47,7 +47,7 @@
                   <span class="font-medium text-blue">Phone:</span>
                   <br />
                   <a class="hover:text-yellow" href="tel:+1 (555) 234-5678"
-                    >+4591988343</a
+                    >+45 91 98 8343</a
                   >
                 </dd>
               </div>
@@ -63,11 +63,74 @@
                   <span class="font-medium text-blue">Email:</span>
                   <br />
                   <a class="hover:text-yellow" href="mailto:hello@example.com"
-                    >vitkai.nora@outlook.hu</a
+                    >nora.vitkai@outlook.com</a
                   >
                 </dd>
               </div>
+              <div class="flex gap-x-4">
+                <dt class="flex-none">
+                  <span class="sr-only">Social media</span>
+                  <IdentificationIcon
+                    class="h-[1.65rem] w-[1.35rem] text-blue"
+                    aria-hidden="true"
+                  />
+                </dt>
+                <dd>
+                  <span class="font-medium text-blue">Social media:</span>
+                  <br />
+                  <div class="flex gap-x-2">
+                    <a
+                      href="https://www.facebook.com/vitkainora/"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      <img
+                        class="h-[1.65rem] w-[1.35rem]"
+                        alt=""
+                        src="../assets/facebook-icon.svg"
+                      />
+                    </a>
+                    <a
+                      href="https://www.linkedin.com/in/nora-vitkai/"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      <img
+                        class="h-[1.65rem] w-[1.35rem]"
+                        alt=""
+                        src="../assets/linkedin-icon.svg"
+                      />
+                    </a>
+                  </div>
+                </dd>
+              </div>
             </dl>
+            <!-- social links -->
+
+            <!--  <div class="mt-6 flex gap-x-4">
+              <a
+                href="https://www.facebook.com/vitkainora/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img
+                  class="h-[1.65rem] w-[1.35rem]"
+                  alt=""
+                  src="../assets/facebook-icon.svg"
+                />
+              </a>
+              <a
+                href="https://www.linkedin.com/in/nora-vitkai/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img
+                  class="h-[1.65rem] w-[1.35rem]"
+                  alt=""
+                  src="../assets/linkedin-icon.svg"
+                />
+              </a>
+            </div> -->
           </div>
         </div>
       </div>
@@ -167,5 +230,6 @@ import {
   BuildingOffice2Icon,
   EnvelopeIcon,
   PhoneIcon,
+  IdentificationIcon,
 } from "@heroicons/vue/24/outline";
 </script>

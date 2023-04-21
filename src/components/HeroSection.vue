@@ -25,7 +25,7 @@
             </li>
             <li class="duration-150 ease-in hover:translate-x-2">
               <a
-                href="https://www.facebook.com/vitkainora/"
+                href="https://www.linkedin.com/in/nora-vitkai/"
                 target="_blank"
                 rel="noreferrer"
               >
