@@ -75,7 +75,7 @@
                   />
                 </dt>
                 <dd>
-                  Creative thinker
+                  Creative thinker: I enjoy coming up with new ideas and unique solutions.
                 </dd>
               </div>
                       <div class="flex gap-x-4">
@@ -87,7 +87,7 @@
                   />
                 </dt>
                 <dd>
-                  Good communicator
+                  Good communicator: Being an empath, I work well as a member of a team.
                 </dd>
               </div>
               <div class="flex gap-x-4">
@@ -99,7 +99,7 @@
                   />
                 </dt>
                 <dd>
-                  Organised and efficient
+                  Organised and efficient: I like to keep my work and mind thoroughly arranged.
                 </dd>
               </div>
               <div class="flex gap-x-4">
@@ -111,7 +111,7 @@
                   />
                 </dt>
                 <dd>
-                  Self motivated
+                  Self-motivated: My goal is to be inspired and my curiosity pushes me to go on.
                 </dd>
               </div>
               <div class="flex gap-x-4">
@@ -123,7 +123,7 @@
                   />
                 </dt>
                 <dd>
-                  Willing to gain further qualifications
+                  Willing to gain further qualifications: I have a great thirst for knowledge.
                 </dd>
               </div>
                     </dl>
@@ -274,7 +274,7 @@
                   />
                 </dt>
                 <dd>
-                  Creative thinker
+                  Creative thinker:  I enjoy coming up with new ideas and unique solutions.
                 </dd>
               </div>
                       <div class="flex gap-x-4">
@@ -286,7 +286,7 @@
                   />
                 </dt>
                 <dd>
-                  Good communicator
+                  Good communicator: Being an empath, I work well as a member of a team.
                 </dd>
               </div>
               <div class="flex gap-x-4">
@@ -298,7 +298,7 @@
                   />
                 </dt>
                 <dd>
-                  Organised and efficient
+                  Organised and efficient: I like to keep my work and mind thoroughly arranged.
                 </dd>
               </div>
               <div class="flex gap-x-4">
@@ -310,7 +310,7 @@
                   />
                 </dt>
                 <dd>
-                  Self motivated
+                  Self-motivated: My goal is to be inspired and my curiosity pushes me to go on.
                 </dd>
               </div>
               <div class="flex gap-x-4">
@@ -322,7 +322,7 @@
                   />
                 </dt>
                 <dd>
-                  Willing to gain further qualifications
+                  Willing to gain further qualifications:  I have a great thirst for knowledge.
                 </dd>
               </div>
                     </dl>
