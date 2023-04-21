@@ -52,7 +52,7 @@
       <!-- bigger screens -->
       <div class="mt-24 hidden md:block">
         <div
-          class="grid items-center gap-4 sm:gap-6 md:grid-cols-1 md:grid-rows-2 lg:grid-cols-2 lg:grid-rows-1"
+          class="grid items-center gap-6 sm:gap-6 md:grid-cols-1 md:grid-rows-2 lg:grid-cols-2 lg:grid-rows-1"
         >
           <div class="order-2">
             <div class="flex-auto">
@@ -65,13 +65,68 @@
                   }"
                 >
                   <p>
-                    Lorem ipsum lorem ipsum lorem lorem ipsum lorem ipsum bla
-                    bla bla lorem ipsum lorem lorem ipsum lorem ipsum bla bla
-                    bla bla bla bla lorem ipsum.
-                    <br />
-                    <br />
-                    Lorem ipsum lorem ipsum lorem lorem ipsum lorem ipsum bla
-                    bla bla lorem ipsum lorem lorem ipsum.
+                    <dl>
+                      <div class="flex gap-x-4">
+                <dt class="flex-none">
+                  <span class="sr-only">Address</span>
+                  <CursorArrowRaysIcon
+                    class="h-[1.65rem] w-[1.35rem] text-blue"
+                    aria-hidden="true"
+                  />
+                </dt>
+                <dd>
+                  Creative thinker
+                </dd>
+              </div>
+                      <div class="flex gap-x-4">
+                <dt class="flex-none">
+                  <span class="sr-only">Address</span>
+                  <ChatBubbleLeftRightIcon
+                    class="h-[1.65rem] w-[1.35rem] text-blue"
+                    aria-hidden="true"
+                  />
+                </dt>
+                <dd>
+                  Good communicator
+                </dd>
+              </div>
+              <div class="flex gap-x-4">
+                <dt class="flex-none">
+                  <span class="sr-only">Address</span>
+                  <CalendarDaysIcon
+                    class="h-[1.65rem] w-[1.35rem] text-blue"
+                    aria-hidden="true"
+                  />
+                </dt>
+                <dd>
+                  Organised and efficient
+                </dd>
+              </div>
+              <div class="flex gap-x-4">
+                <dt class="flex-none">
+                  <span class="sr-only">Address</span>
+                  <UserPlusIcon
+                    class="h-[1.65rem] w-[1.35rem] text-blue"
+                    aria-hidden="true"
+                  />
+                </dt>
+                <dd>
+                  Self motivated
+                </dd>
+              </div>
+              <div class="flex gap-x-4">
+                <dt class="flex-none">
+                  <span class="sr-only">Address</span>
+                  <AcademicCapIcon
+                    class="h-[1.65rem] w-[1.35rem] text-blue"
+                    aria-hidden="true"
+                  />
+                </dt>
+                <dd>
+                  Willing to gain further qualifications
+                </dd>
+              </div>
+                    </dl>
                   </p>
                 </div>
                 <!-- tools content -->
@@ -209,15 +264,68 @@
                     }"
                   >
                     <p>
-                      Lorem ipsum lorem ipsum lorem lorem ipsum lorem ipsum bla
-                      bla bla lorem ipsum lorem lorem ipsum lorem ipsum bla bla
-                      bla bla bla bla lorem ipsum lorem lorem ipsum lorem ipsum
-                      bla bla bla bla bla bla bla bla bla bla lbangvghvjz lorem
-                      ipsum lorem lorem ipsum lorem ipsum bla bla bla…
-                      <br />
-                      <br />
-                      Lorem ipsum lorem ipsum lorem lorem ipsum lorem ipsum bla
-                      bla bla lorem ipsum
+                      <dl>
+                      <div class="flex gap-x-4">
+                <dt class="flex-none">
+                  <span class="sr-only">Address</span>
+                  <CursorArrowRaysIcon
+                    class="h-[1.65rem] w-[1.35rem] text-blue"
+                    aria-hidden="true"
+                  />
+                </dt>
+                <dd>
+                  Creative thinker
+                </dd>
+              </div>
+                      <div class="flex gap-x-4">
+                <dt class="flex-none">
+                  <span class="sr-only">Address</span>
+                  <ChatBubbleLeftRightIcon
+                    class="h-[1.65rem] w-[1.35rem] text-blue"
+                    aria-hidden="true"
+                  />
+                </dt>
+                <dd>
+                  Good communicator
+                </dd>
+              </div>
+              <div class="flex gap-x-4">
+                <dt class="flex-none">
+                  <span class="sr-only">Address</span>
+                  <CalendarDaysIcon
+                    class="h-[1.65rem] w-[1.35rem] text-blue"
+                    aria-hidden="true"
+                  />
+                </dt>
+                <dd>
+                  Organised and efficient
+                </dd>
+              </div>
+              <div class="flex gap-x-4">
+                <dt class="flex-none">
+                  <span class="sr-only">Address</span>
+                  <UserPlusIcon
+                    class="h-[1.65rem] w-[1.35rem] text-blue"
+                    aria-hidden="true"
+                  />
+                </dt>
+                <dd>
+                  Self motivated
+                </dd>
+              </div>
+              <div class="flex gap-x-4">
+                <dt class="flex-none">
+                  <span class="sr-only">Address</span>
+                  <AcademicCapIcon
+                    class="h-[1.65rem] w-[1.35rem] text-blue"
+                    aria-hidden="true"
+                  />
+                </dt>
+                <dd>
+                  Willing to gain further qualifications
+                </dd>
+              </div>
+                    </dl>
                     </p>
                   </div>
                   <!-- skills content -->
@@ -240,6 +348,7 @@
 </template>
 
 <script setup>
+import { AcademicCapIcon, CalendarDaysIcon, ChatBubbleLeftRightIcon, CursorArrowRaysIcon, UserPlusIcon } from "@heroicons/vue/24/outline";
 import { ref } from "vue";
 
 let openTab = ref(1);
