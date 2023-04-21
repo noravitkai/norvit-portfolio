@@ -6,7 +6,7 @@
         <!-- Item 1 -->
         <div class="hidden duration-700 ease-in-out" data-carousel-item>
           <img
-            src="../assets/logo-office-mockup.jpg"
+            src="../assets/logo-wall-mockup.jpg"
             class="absolute left-1/2 top-1/2 block w-full -translate-x-1/2 -translate-y-1/2"
             alt="..."
           />
@@ -14,31 +14,7 @@
         <!-- Item 2 -->
         <div class="hidden duration-700 ease-in-out" data-carousel-item>
           <img
-            src="../assets/logo-office-mockup.jpg"
-            class="absolute left-1/2 top-1/2 block w-full -translate-x-1/2 -translate-y-1/2"
-            alt="..."
-          />
-        </div>
-        <!-- Item 3 -->
-        <div class="hidden duration-700 ease-in-out" data-carousel-item>
-          <img
-            src="../assets/logo-office-mockup.jpg"
-            class="absolute left-1/2 top-1/2 block w-full -translate-x-1/2 -translate-y-1/2"
-            alt="..."
-          />
-        </div>
-        <!-- Item 4 -->
-        <div class="hidden duration-700 ease-in-out" data-carousel-item>
-          <img
-            src="../assets/logo-office-mockup.jpg"
-            class="absolute left-1/2 top-1/2 block w-full -translate-x-1/2 -translate-y-1/2"
-            alt="..."
-          />
-        </div>
-        <!-- Item 5 -->
-        <div class="hidden duration-700 ease-in-out" data-carousel-item>
-          <img
-            src="../assets/logo-office-mockup.jpg"
+            src="../assets/logo-stamp-mockup.jpg"
             class="absolute left-1/2 top-1/2 block w-full -translate-x-1/2 -translate-y-1/2"
             alt="..."
           />
@@ -61,27 +37,6 @@
           aria-current="false"
           aria-label="Slide 2"
           data-carousel-slide-to="1"
-        ></button>
-        <button
-          type="button"
-          class="h-3 w-3 rounded-full bg-white/30 hover:bg-yellow/50 focus:bg-yellow"
-          aria-current="false"
-          aria-label="Slide 3"
-          data-carousel-slide-to="2"
-        ></button>
-        <button
-          type="button"
-          class="h-3 w-3 rounded-full bg-white/30 hover:bg-yellow/50 focus:bg-yellow"
-          aria-current="false"
-          aria-label="Slide 4"
-          data-carousel-slide-to="3"
-        ></button>
-        <button
-          type="button"
-          class="h-3 w-3 rounded-full bg-white/30 hover:bg-yellow/50 focus:bg-yellow"
-          aria-current="false"
-          aria-label="Slide 5"
-          data-carousel-slide-to="4"
         ></button>
       </div>
       <!-- Slider controls -->

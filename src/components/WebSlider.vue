@@ -6,7 +6,7 @@
         <!-- Item 1 -->
         <div class="hidden duration-700 ease-in-out" data-carousel-item>
           <img
-            src="../assets/logo-office-mockup.jpg"
+            src="../assets/website-laptop-mockup.jpg"
             class="absolute left-1/2 top-1/2 block w-full -translate-x-1/2 -translate-y-1/2"
             alt="..."
           />
@@ -14,7 +14,7 @@
         <!-- Item 2 -->
         <div class="hidden duration-700 ease-in-out" data-carousel-item>
           <img
-            src="../assets/logo-office-mockup.jpg"
+            src="../assets/website-phone-mockup.jpg"
             class="absolute left-1/2 top-1/2 block w-full -translate-x-1/2 -translate-y-1/2"
             alt="..."
           />

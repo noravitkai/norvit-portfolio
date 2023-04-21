@@ -85,7 +85,7 @@
                       rel="noreferrer"
                     >
                       <img
-                        class="h-[1.65rem] w-[1.35rem]"
+                        class="h-[1.65rem] w-[1.35rem] duration-150 ease-in hover:translate-y-2"
                         alt=""
                         src="../assets/facebook-icon.svg"
                       />
@@ -96,7 +96,7 @@
                       rel="noreferrer"
                     >
                       <img
-                        class="h-[1.65rem] w-[1.35rem]"
+                        class="h-[1.65rem] w-[1.35rem] duration-150 ease-in hover:translate-y-2"
                         alt=""
                         src="../assets/linkedin-icon.svg"
                       />
@@ -105,32 +105,6 @@
                 </dd>
               </div>
             </dl>
-            <!-- social links -->
-
-            <!--  <div class="mt-6 flex gap-x-4">
-              <a
-                href="https://www.facebook.com/vitkainora/"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <img
-                  class="h-[1.65rem] w-[1.35rem]"
-                  alt=""
-                  src="../assets/facebook-icon.svg"
-                />
-              </a>
-              <a
-                href="https://www.linkedin.com/in/nora-vitkai/"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <img
-                  class="h-[1.65rem] w-[1.35rem]"
-                  alt=""
-                  src="../assets/linkedin-icon.svg"
-                />
-              </a>
-            </div> -->
           </div>
         </div>
       </div>
