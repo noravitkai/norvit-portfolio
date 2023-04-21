@@ -1,5 +1,5 @@
 <template>
-  <footer class="hidden bg-bg02 shadow md:block">
+  <footer class="block bg-bg02 shadow md:hidden">
     <div class="mx-auto w-full max-w-7xl p-6 md:py-8">
       <div
         class="flex flex-col items-center justify-center gap-0 sm:justify-between sm:gap-4 md:flex-row md:gap-0"
@@ -21,7 +21,7 @@
             <a href="#about" class="mr-4 hover:text-yellow md:mr-6">About</a>
           </li>
           <li>
-            <a href="#experience" class="mr-4 hover:text-yellow md:mr-6"
+            <a href="#experiencemobile" class="mr-4 hover:text-yellow md:mr-6"
               >Experience</a
             >
           </li>

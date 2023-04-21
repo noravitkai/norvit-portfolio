@@ -1,5 +1,5 @@
 <template>
-  <section class="block bg-bg02 lg:hidden">
+  <section class="block bg-bg02 lg:hidden" id="experiencemobile">
     <div class="mx-auto max-w-7xl px-6 py-24">
       <div class="flex gap-14">
         <div class="flex">

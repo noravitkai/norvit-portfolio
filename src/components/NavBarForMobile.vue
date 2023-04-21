@@ -1,5 +1,5 @@
 <template>
-  <header id="navbar" class="sticky top-0 z-40 hidden bg-bg02 md:block">
+  <header id="navbar" class="sticky top-0 z-40 block bg-bg02 md:hidden">
     <nav
       class="mx-auto flex max-w-7xl items-center justify-between p-6"
       aria-label="Global"
@@ -32,7 +32,7 @@
           >About</a
         >
         <a
-          href="#experience"
+          href="#experiencemobile"
           class="text-sm font-semibold leading-6 text-black hover:text-yellow"
           >Experience</a
         >
@@ -84,7 +84,7 @@
               >
               <a
                 @click="mobileMenuOpen = false"
-                href="#experience"
+                href="#experiencemobile"
                 class="-mx-3 block rounded-lg px-3 py-2 text-sm font-semibold leading-7 text-black hover:text-yellow"
                 >Experience</a
               >
